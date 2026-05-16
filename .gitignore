@@ -1,19 +1,18 @@
-# Nuxt dev/build outputs
-.output
-.data
-.nuxt
-.nitro
-.cache
-
-# Node
 node_modules
-
-# Logs
-logs
-*.log
-
-# Misc
+dist
+.nuxt
+.output
+.turbo
 .DS_Store
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+bun.lock
+.eslintcache
+.stylelintcache
 .env
-.env.*
-!.env.example
+.vercel
+.netlify
+*.tsbuildinfo
+.data

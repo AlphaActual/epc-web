@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+@import './animations.css';
+@import './checkbox-item.css';
+@import './scrollbar.css';
+
+@theme {
+	/* colors */
+	--color-black: #000;
+	--color-gray100: #3a394c;
+	--color-gray80: #585858;
+	--color-gray40: #bebec5;
+	--color-gray30: #d9d9dd;
+	--color-white: #fff;
+	--color-transparent: transparent;
+	--color-current: currentcolor;
+	--color-primary100: #2e2e2e;
+	--color-primary50: #696969;
+	--color-primary20: #a1a1a1;
+	--color-primary05: #eee;
+	--color-primary0: #efefef;
+	--color-success100: #379c75;
+	--color-success05: #cbe9de;
+	--color-warning100: #a64f21;
+	--color-warning05: #ffc2ae;
+	--color-alert100: #9f1b1f;
+	--color-alert50: #de1c22;
+	--color-alert05: #f9d3d4;
+
+	/* fonts */
+	--font-sans: 'Arial';
+	--font-serif: 'Times New Roman';
+
+}
+
+@layer components {
+	
+}

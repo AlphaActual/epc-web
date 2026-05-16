@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"target": "ESNext",
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
+		"verbatimModuleSyntax": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitOverride": true,
+		"module": "preserve",
+		"noEmit": true,
+		"moduleResolution": "Bundler",
+		"useDefineForClassFields": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"include": [
+		"./*.ts",
+		"./@types/**/*.ts"
+	],
+	"exclude": [
+		"./nuxt.config.ts"
+	]
+}
