@@ -1,0 +1,31 @@
+.page-enter-active,
+.page-leave-active {
+	transition: opacity 200ms;
+}
+
+.page-enter,
+.page-leave-active {
+	opacity: 0;
+}
+
+.fadeFromUp-enter-active,
+.fadeFromUp-leave-active {
+	transition: all 300ms ease;
+}
+
+.fadeFromUp-enter-from,
+.fadeFromUp-leave-to {
+	opacity: 0;
+	transform: translateY(-10px);
+	transition: all 300ms ease;
+	pointer-events: none;
+}
+
+.fadeIn {
+	opacity: 0;
+	transition: opacity 1s ease;
+}
+
+.fadeIn.in-viewport {
+	opacity: 1;
+}
