@@ -1,0 +1,87 @@
+import type { Sermon, SermonSeries } from '~~/@types/content';
+
+export const sermonSeries: SermonSeries[] = [
+	{ id: 'pulse_of_faith', title_key: 'sermons.series.pulse_of_faith' },
+	{ id: 'walking_in_spirit', title_key: 'sermons.series.walking_in_spirit' },
+	{ id: 'standalone', title_key: 'sermons.series.standalone' },
+];
+
+export const sermons: Sermon[] = [
+	{
+		id: 'pulse-of-faith',
+		youtube_id: 'dQw4w9WgXcQ',
+		date: '2026-05-10',
+		speaker_key: 'sermons.speakers.pastor_ivan',
+		series_key: 'sermons.series.pulse_of_faith',
+		title_key: 'sermons.list.pulse_of_faith.title',
+		scripture_key: 'sermons.list.pulse_of_faith.scripture',
+		summary_key: 'sermons.list.pulse_of_faith.summary',
+		topic_keys: ['sermons.topics.faith', 'sermons.topics.holy_spirit'],
+	},
+	{
+		id: 'living-water',
+		youtube_id: 'jNQXAC9IVRw',
+		date: '2026-05-03',
+		speaker_key: 'sermons.speakers.pastor_ivan',
+		series_key: 'sermons.series.walking_in_spirit',
+		title_key: 'sermons.list.living_water.title',
+		scripture_key: 'sermons.list.living_water.scripture',
+		summary_key: 'sermons.list.living_water.summary',
+		topic_keys: ['sermons.topics.holy_spirit', 'sermons.topics.prayer'],
+	},
+	{
+		id: 'grace-that-changes',
+		youtube_id: 'M7lc1UVf-VE',
+		date: '2026-04-26',
+		speaker_key: 'sermons.speakers.guest_pastor',
+		series_key: null,
+		title_key: 'sermons.list.grace_that_changes.title',
+		scripture_key: 'sermons.list.grace_that_changes.scripture',
+		summary_key: 'sermons.list.grace_that_changes.summary',
+		topic_keys: ['sermons.topics.grace', 'sermons.topics.salvation'],
+	},
+	{
+		id: 'house-of-prayer',
+		youtube_id: '9bZkp7q19f0',
+		date: '2026-04-19',
+		speaker_key: 'sermons.speakers.pastor_ivan',
+		series_key: 'sermons.series.walking_in_spirit',
+		title_key: 'sermons.list.house_of_prayer.title',
+		scripture_key: 'sermons.list.house_of_prayer.scripture',
+		summary_key: 'sermons.list.house_of_prayer.summary',
+		topic_keys: ['sermons.topics.prayer'],
+	},
+	{
+		id: 'fruit-of-the-spirit',
+		youtube_id: 'kJQP7kiw5Fk',
+		date: '2026-04-12',
+		speaker_key: 'sermons.speakers.elder_marko',
+		series_key: 'sermons.series.pulse_of_faith',
+		title_key: 'sermons.list.fruit_of_the_spirit.title',
+		scripture_key: 'sermons.list.fruit_of_the_spirit.scripture',
+		summary_key: 'sermons.list.fruit_of_the_spirit.summary',
+		topic_keys: ['sermons.topics.holy_spirit', 'sermons.topics.character'],
+	},
+	{
+		id: 'called-to-serve',
+		youtube_id: 'fJ9rUzIMcZQ',
+		date: '2026-04-05',
+		speaker_key: 'sermons.speakers.pastor_ivan',
+		series_key: null,
+		title_key: 'sermons.list.called_to_serve.title',
+		scripture_key: 'sermons.list.called_to_serve.scripture',
+		summary_key: 'sermons.list.called_to_serve.summary',
+		topic_keys: ['sermons.topics.service', 'sermons.topics.community'],
+	},
+];
+
+export const sermonTopics = [
+	'sermons.topics.faith',
+	'sermons.topics.holy_spirit',
+	'sermons.topics.prayer',
+	'sermons.topics.grace',
+	'sermons.topics.salvation',
+	'sermons.topics.character',
+	'sermons.topics.service',
+	'sermons.topics.community',
+];

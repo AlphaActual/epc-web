@@ -1,6 +1,364 @@
 {
 	"seo": {
-		"title": "Page title",
-		"description": "Page description"
+		"title": "EPC Rovinj — Crkva s pulsom",
+		"description": "Pentekostna crkva u Rovinju. Živa zajednica vjere, molitve i Duha Svetoga. Pridruži nam se nedjeljom u 10:00."
+	},
+	"common": {
+		"learn_more": "Saznaj više",
+		"read_more": "Pročitaj više",
+		"watch": "Pogledaj",
+		"listen": "Slušaj",
+		"contact_us": "Kontaktiraj nas",
+		"send": "Pošalji",
+		"loading": "Učitavanje…",
+		"all": "Sve",
+		"search": "Pretraži",
+		"close": "Zatvori",
+		"open_menu": "Otvori izbornik",
+		"close_menu": "Zatvori izbornik",
+		"language": "Jezik",
+		"coming_soon": "Uskoro",
+		"coming_soon_body": "Ova stranica je u izradi. Vraćamo se uskoro s više sadržaja."
+	},
+	"nav": {
+		"home": "Početna",
+		"about": "O nama",
+		"services": "Bogoslužja",
+		"sermons": "Propovijedi",
+		"ministries": "Služenja",
+		"blog": "Blog",
+		"prayer": "Molitvene potrebe",
+		"give": "Doniraj",
+		"contact": "Kontakt"
+	},
+	"church": {
+		"name": "EPC Rovinj",
+		"full_name": "Evangelička Pentekostna Crkva Rovinj",
+		"tagline": "Crkva s pulsom"
+	},
+	"home": {
+		"hero": {
+			"eyebrow": "Dobrodošli u EPC Rovinj",
+			"title_lead": "Crkva s",
+			"title_accent": "pulsom",
+			"subtitle": "Živa zajednica koja se okuplja oko Isusa Krista u srcu Rovinja. Pridruži nam se nedjeljom — vjera, molitva i Duh Sveti za stvarni život.",
+			"cta_primary": "Posjeti nas u nedjelju",
+			"cta_secondary": "Slušaj propovijed"
+		},
+		"next_service": {
+			"label": "Sljedeće bogoslužje",
+			"every_sunday": "Svake nedjelje",
+			"time": "10:00",
+			"location": "Istarska ulica 12, Rovinj",
+			"directions": "Dobij upute"
+		},
+		"beliefs_intro": {
+			"eyebrow": "Tko smo",
+			"title": "Vjera koja diše, zajednica koja živi",
+			"body": "Vjerujemo da je Bog živ, da je Isus Krist Spasitelj, i da Duh Sveti i danas djeluje u nama. Mi smo pentekostna crkva — utemeljeni na Bibliji, otvoreni za Duha, predani jedni drugima i gradu Rovinju.",
+			"cta": "Pročitaj naša vjerovanja"
+		},
+		"latest_sermons": {
+			"eyebrow": "Iz medijateke",
+			"title": "Najnovije propovijedi",
+			"view_all": "Pogledaj sve propovijedi"
+		},
+		"upcoming_events": {
+			"eyebrow": "Što slijedi",
+			"title": "Nadolazeća događanja",
+			"view_all": "Cijeli kalendar"
+		},
+		"map_callout": {
+			"eyebrow": "Posjeti nas",
+			"title": "Naći ćeš nas u srcu Rovinja",
+			"body": "Otvorena vrata svake nedjelje. Lako dostupno parking i dolazak pješice s rive.",
+			"cta": "Otvori u Google Maps"
+		}
+	},
+	"about": {
+		"hero": {
+			"eyebrow": "O nama",
+			"title": "Crkva s pulsom — od 2009. u Rovinju",
+			"subtitle": "Naša priča je priča Božje vjernosti — od male molitvene grupe do žive crkvene zajednice."
+		},
+		"history": {
+			"title": "Naša povijest",
+			"body_1": "EPC Rovinj nastala je iz molitvene grupe koja se sastajala po kućama početkom 2000-ih. Sa željom da i Rovinj ima živu pentekostnu zajednicu, 2009. godine službeno smo registrirani kao crkva.",
+			"body_2": "Kroz godine smo rasli kao obitelj — krštenja u moru, ljetne konferencije, kućne grupe diljem grada, i toplina dobrodošlice za svakoga tko prođe kroz naša vrata.",
+			"body_3": "Danas se okupljamo u prostoru na Istarskoj ulici, ali srce crkve i dalje su ljudi — Rovinjčani i posjetitelji koji su pronašli duhovni dom."
+		},
+		"beliefs": {
+			"title": "Naša vjerovanja",
+			"intro": "Stojimo na temelju Svetog pisma i klasične kršćanske vjere izražene u Apostolskom vjerovanju, s pentekostnim naglaskom na djelo Duha Svetoga.",
+			"items": {
+				"bible": {
+					"title": "Sveto pismo",
+					"body": "Vjerujemo da je Biblija nadahnuta Riječ Božja, mjerodavna u vjeri i životu."
+				},
+				"god": {
+					"title": "Trojedini Bog",
+					"body": "Vjerujemo u jednoga Boga — Oca, Sina i Duha Svetoga."
+				},
+				"jesus": {
+					"title": "Isus Krist",
+					"body": "Vjerujemo da je Isus Krist Sin Božji, Spasitelj svijeta, koji je umro, uskrsnuo i živi."
+				},
+				"salvation": {
+					"title": "Spasenje",
+					"body": "Spasenje je dar milosti, primljen vjerom u Isusa Krista — ne na temelju djela."
+				},
+				"spirit": {
+					"title": "Krštenje Duhom Svetim",
+					"body": "Vjerujemo u krštenje Duhom Svetim, koje vjernika osposobljava za život i službu."
+				},
+				"gifts": {
+					"title": "Darovi Duha",
+					"body": "Vjerujemo da Duh Sveti i danas daje darove — proročanstvo, jezike, iscjeljenje, službu — za izgradnju Crkve."
+				},
+				"church": {
+					"title": "Crkva",
+					"body": "Crkva je tijelo Kristovo — zajednica vjernika pozvana na zajedništvo, štovanje i misiju."
+				},
+				"return": {
+					"title": "Kristov povratak",
+					"body": "Iščekujemo skori i osobni povratak Isusa Krista po svoju Crkvu."
+				}
+			}
+		},
+		"mission": {
+			"title": "Vizija i misija",
+			"vision_label": "Vizija",
+			"vision_body": "Biti crkva s pulsom u Rovinju — živa, topla, dostupna i otvorena svakom tko traži Boga.",
+			"mission_label": "Misija",
+			"mission_body": "Naviještati evanđelje Isusa Krista, učeničkim životom obučavati vjernike, i s ljubavlju služiti gradu Rovinju kroz molitvu, riječ i konkretna djela."
+		},
+		"leadership": {
+			"title": "Vodstvo",
+			"subtitle": "Tim koji se brine za zajednicu i molitveno hodi pred Bogom."
+		}
+	},
+	"leadership": {
+		"roles": {
+			"senior_pastor": "Pastor",
+			"elder": "Starješina",
+			"worship_lead": "Voditeljica slavljenja",
+			"youth_lead": "Voditelj omladine"
+		},
+		"bios": {
+			"pastor_ivan": "Ivan vodi EPC Rovinj od 2012. Strastveni propovjednik Riječi i pastir s otvorenim srcem za grad.",
+			"elder_marko": "Marko služi kao starješina i učitelj — vodi biblijske skupine i mentorira mlade muškarce.",
+			"worship_lead_ana": "Ana vodi tim slavljenja i nedjeljno bogoslužje — vjeruje da hvala otvara nebo.",
+			"youth_lead_petar": "Petar je s mladima cijeli tjedan — od petka navečer do plaže ljeti."
+		}
+	},
+	"schedule": {
+		"hero": {
+			"eyebrow": "Bogoslužja i događanja",
+			"title": "Kada se okupljamo",
+			"subtitle": "Tjedni ritam crkve i posebna događanja kroz godinu — sve na jednom mjestu."
+		},
+		"recurring_title": "Redovita okupljanja",
+		"recurring_subtitle": "Tjedni ritam zajednice.",
+		"events_title": "Posebna događanja",
+		"events_subtitle": "Konferencije, krštenja, koncerti hvale i seminari.",
+		"days": {
+			"sunday": "Nedjelja",
+			"monday": "Ponedjeljak",
+			"tuesday": "Utorak",
+			"wednesday": "Srijeda",
+			"thursday": "Četvrtak",
+			"friday": "Petak",
+			"saturday": "Subota"
+		},
+		"locations": {
+			"main_hall": "Glavna dvorana, Istarska 12",
+			"youth_room": "Omladinska soba, Istarska 12",
+			"various_homes": "Po kućama širom Rovinja"
+		},
+		"recurring": {
+			"sunday_service": {
+				"title": "Nedjeljno bogoslužje",
+				"description": "Glavno tjedno okupljanje — slavljenje, propovijed, molitva i zajedništvo. Otvoreno za sve."
+			},
+			"prayer_meeting": {
+				"title": "Molitveni sastanak",
+				"description": "Otvoreni molitveni sat za grad, crkvu i osobne potrebe."
+			},
+			"bible_study": {
+				"title": "Proučavanje Biblije",
+				"description": "Studij kroz knjige Pisma — pitanja, rasprava i primjena."
+			},
+			"youth_group": {
+				"title": "Omladina",
+				"description": "Tinejdžeri i mladi do 25 godina — slavljenje, riječ, druženje, igre."
+			},
+			"home_groups": {
+				"title": "Kućne grupe",
+				"description": "Manje grupe po kućama — gdje crkva postaje obitelj."
+			}
+		}
+	},
+	"events": {
+		"locations": {
+			"beach": "Plaža kod Crvenog otoka",
+			"istria_camp": "Kamp Istra, unutrašnjost"
+		},
+		"cta": {
+			"learn_more": "Saznaj više",
+			"register": "Prijavi se"
+		},
+		"baptism_service": {
+			"title": "Krštenje u moru",
+			"description": "Javno krštenje vjernika — slavlje nove vjere uz pjesmu, svjedočanstva i piknik nakon."
+		},
+		"summer_conference": {
+			"title": "Ljetna konferencija „Puls 2026.”",
+			"description": "Tri dana zajedno — gostujući propovjednici, slavljenje, službe iscjeljenja i radionice."
+		},
+		"worship_night": {
+			"title": "Večer hvale",
+			"description": "Otvoreno za sve — sat i pol slavljenja, molitve i mirne tišine pred Bogom."
+		},
+		"kids_camp": {
+			"title": "Dječji kamp",
+			"description": "Pet dana zabave, biblijskih priča i prijateljstava — za djecu od 7 do 12 godina."
+		}
+	},
+	"sermons": {
+		"hero": {
+			"eyebrow": "Medijateka",
+			"title": "Propovijedi",
+			"subtitle": "Arhiva nedjeljnih propovijedi — slušaj, gledaj, dijeli."
+		},
+		"filters": {
+			"search_placeholder": "Pretraži po naslovu ili tekstu…",
+			"all_speakers": "Svi propovjednici",
+			"all_series": "Sve serije",
+			"all_topics": "Sve teme",
+			"clear": "Očisti filtere",
+			"results": "{count} propovijedi",
+			"results_one": "{count} propovijed",
+			"results_few": "{count} propovijedi",
+			"no_results": "Nema rezultata za odabrane filtere."
+		},
+		"watch_on_youtube": "Pogledaj na YouTube",
+		"speakers": {
+			"pastor_ivan": "Ivan Horvat",
+			"guest_pastor": "Gostujući propovjednik",
+			"elder_marko": "Marko Babić"
+		},
+		"series": {
+			"pulse_of_faith": "Puls vjere",
+			"walking_in_spirit": "Hod u Duhu",
+			"standalone": "Samostalno"
+		},
+		"topics": {
+			"faith": "Vjera",
+			"holy_spirit": "Duh Sveti",
+			"prayer": "Molitva",
+			"grace": "Milost",
+			"salvation": "Spasenje",
+			"character": "Karakter",
+			"service": "Služenje",
+			"community": "Zajednica"
+		},
+		"list": {
+			"pulse_of_faith": {
+				"title": "Puls vjere",
+				"scripture": "Marko 11,22–24",
+				"summary": "Što znači imati vjeru u Boga koji odgovara — i kako vjera oblikuje svakodnevni puls naših života."
+			},
+			"living_water": {
+				"title": "Živa voda",
+				"scripture": "Ivan 7,37–39",
+				"summary": "Isusov poziv žednima — i obećanje Duha kao rijeke koja teče iz nas prema svijetu."
+			},
+			"grace_that_changes": {
+				"title": "Milost koja mijenja",
+				"scripture": "Efežanima 2,1–10",
+				"summary": "Spasenje je dar — ali milost nas ne ostavlja gdje nas je našla."
+			},
+			"house_of_prayer": {
+				"title": "Kuća molitve",
+				"scripture": "Izaija 56,7",
+				"summary": "Bog želi da Njegov narod bude prepoznat po molitvi. Što to znači za EPC Rovinj?"
+			},
+			"fruit_of_the_spirit": {
+				"title": "Plod Duha",
+				"scripture": "Galaćanima 5,22–23",
+				"summary": "Devet osobina koje Duh proizvodi u životu vjernika koji s Njim hoda."
+			},
+			"called_to_serve": {
+				"title": "Pozvani služiti",
+				"scripture": "Marko 10,43–45",
+				"summary": "Veličina u Kristovu kraljevstvu mjeri se služenjem — kako to izgleda u Rovinju 2026."
+			}
+		}
+	},
+	"ministries": {
+		"hero": {
+			"eyebrow": "Služenja",
+			"title": "Načini kako služimo i kako se možeš uključiti",
+			"subtitle": "Crkva je obitelj koja zajedno gradi. Evo timova kroz koje to radimo."
+		},
+		"children": {
+			"title": "Dječji program",
+			"description": "Tijekom nedjeljnog bogoslužja djeca imaju vlastiti program prilagođen dobi — Biblija, kreativne aktivnosti i igra."
+		},
+		"youth": {
+			"title": "Omladina",
+			"description": "Tinejdžeri i mladi se okupljaju petkom — slavljenje, razgovori o vjeri i životu, druženje."
+		},
+		"home_groups": {
+			"title": "Kućne grupe",
+			"description": "Manje grupe vjernika koje se sastaju po kućama — proučavanje Biblije, molitva i autentično zajedništvo."
+		},
+		"worship": {
+			"title": "Tim slavljenja",
+			"description": "Glazbenici i pjevači koji vode crkvu u štovanju nedjeljom i na posebnim događanjima."
+		},
+		"evangelism": {
+			"title": "Evangelizacija",
+			"description": "Praktično dijeljenje radosne vijesti u gradu — uličnim akcijama, kreativnim događanjima i ljetnim misijama."
+		},
+		"social": {
+			"title": "Humanitarni i društveni rad",
+			"description": "Konkretna ljubav za grad — pomoć obiteljima u potrebi, suradnja s lokalnim inicijativama."
+		}
+	},
+	"contact": {
+		"hero": {
+			"eyebrow": "Kontakt",
+			"title": "Javi nam se",
+			"subtitle": "Bilo da imaš pitanje, želiš nas posjetiti ili samo razgovarati — tu smo."
+		},
+		"info": {
+			"address_label": "Adresa",
+			"phone_label": "Telefon",
+			"email_label": "Email",
+			"hours_label": "Bogoslužje",
+			"hours_value": "Nedjeljom u 10:00"
+		},
+		"form": {
+			"title": "Pošalji nam poruku",
+			"name": "Ime i prezime",
+			"email": "Email",
+			"subject": "Tema",
+			"message": "Poruka",
+			"submit": "Pošalji poruku",
+			"placeholder_message": "Kako ti možemo pomoći?"
+		},
+		"socials": {
+			"title": "Prati nas",
+			"subtitle": "Najnovije propovijedi i vijesti uživo."
+		}
+	},
+	"footer": {
+		"about_blurb": "Pentekostna crkva u srcu Rovinja. Otvorena vrata za sve — vjernike, tražitelje i posjetitelje.",
+		"nav_title": "Stranice",
+		"contact_title": "Kontakt",
+		"socials_title": "Društvene mreže",
+		"rights": "Sva prava pridržana.",
+		"made_with": "Crkva s pulsom"
 	}
 }

@@ -1,0 +1,87 @@
+import type { ChurchEvent, RecurringMeeting } from '~~/@types/content';
+
+export const recurringMeetings: RecurringMeeting[] = [
+	{
+		id: 'sunday_service',
+		day_key: 'sunday',
+		time: '10:00',
+		title_key: 'schedule.recurring.sunday_service.title',
+		description_key: 'schedule.recurring.sunday_service.description',
+		location_key: 'schedule.locations.main_hall',
+	},
+	{
+		id: 'prayer_meeting',
+		day_key: 'tuesday',
+		time: '19:00',
+		title_key: 'schedule.recurring.prayer_meeting.title',
+		description_key: 'schedule.recurring.prayer_meeting.description',
+		location_key: 'schedule.locations.main_hall',
+	},
+	{
+		id: 'bible_study',
+		day_key: 'wednesday',
+		time: '19:30',
+		title_key: 'schedule.recurring.bible_study.title',
+		description_key: 'schedule.recurring.bible_study.description',
+		location_key: 'schedule.locations.main_hall',
+	},
+	{
+		id: 'youth_group',
+		day_key: 'friday',
+		time: '19:00',
+		title_key: 'schedule.recurring.youth_group.title',
+		description_key: 'schedule.recurring.youth_group.description',
+		location_key: 'schedule.locations.youth_room',
+	},
+	{
+		id: 'home_groups',
+		day_key: 'thursday',
+		time: '19:00',
+		title_key: 'schedule.recurring.home_groups.title',
+		description_key: 'schedule.recurring.home_groups.description',
+		location_key: 'schedule.locations.various_homes',
+	},
+];
+
+export const upcomingEvents: ChurchEvent[] = [
+	{
+		id: 'baptism_service',
+		type: 'special',
+		date_iso: '2026-06-07T10:00:00+02:00',
+		end_date_iso: '2026-06-07T13:00:00+02:00',
+		title_key: 'events.baptism_service.title',
+		location_key: 'events.locations.beach',
+		description_key: 'events.baptism_service.description',
+		cta_key: 'events.cta.learn_more',
+	},
+	{
+		id: 'summer_conference',
+		type: 'special',
+		date_iso: '2026-07-15T18:00:00+02:00',
+		end_date_iso: '2026-07-17T22:00:00+02:00',
+		title_key: 'events.summer_conference.title',
+		location_key: 'schedule.locations.main_hall',
+		description_key: 'events.summer_conference.description',
+		cta_key: 'events.cta.register',
+	},
+	{
+		id: 'worship_night',
+		type: 'special',
+		date_iso: '2026-06-28T20:00:00+02:00',
+		end_date_iso: '2026-06-28T22:00:00+02:00',
+		title_key: 'events.worship_night.title',
+		location_key: 'schedule.locations.main_hall',
+		description_key: 'events.worship_night.description',
+		cta_key: 'events.cta.learn_more',
+	},
+	{
+		id: 'kids_camp',
+		type: 'special',
+		date_iso: '2026-08-04T09:00:00+02:00',
+		end_date_iso: '2026-08-08T17:00:00+02:00',
+		title_key: 'events.kids_camp.title',
+		location_key: 'events.locations.istria_camp',
+		description_key: 'events.kids_camp.description',
+		cta_key: 'events.cta.register',
+	},
+];

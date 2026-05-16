@@ -10,8 +10,8 @@ const BASE_APP_URL =
 
 const BASE_BACK_API_URL = IS_PRODUCTION ? 'https://cms.domain.com/api' : 'https://cms-test.domain.com/api';
 
-const APP_NAME = 'Nuxt Vercel Starter Kit';
-const APP_EMAIL = IS_PRODUCTION ? 'info@domain.com' : 'dev@lloyds-digital.com';
+const APP_NAME = 'EPC Rovinj';
+const APP_EMAIL = IS_PRODUCTION ? 'info@epcrovinj.hr' : 'dev@lloyds-digital.com';
 
 const COOKIEBOT_ID = '';
 
@@ -90,11 +90,12 @@ export default defineNuxtConfig({
 	fonts: {
 		provider: 'google',
 		defaults: {
-			weights: [300, 400, 600],
+			weights: [300, 400, 500, 600, 700],
 			subsets: ['latin-ext'],
 		},
 		families: [
-			// specify font families => https://fonts.nuxt.com/get-started/configuration#families
+			{ name: 'Inter', provider: 'google', weights: [300, 400, 500, 600, 700] },
+			{ name: 'Fraunces', provider: 'google', weights: [400, 500, 600, 700], styles: ['normal', 'italic'] },
 		],
 	},
 
@@ -139,6 +140,7 @@ export default defineNuxtConfig({
 				file: 'en.json',
 			},
 		],
+		strategy: 'prefix_except_default',
 		detectBrowserLanguage: false,
 		defaultLocale: 'hr',
 	},

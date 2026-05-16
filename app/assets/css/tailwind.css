@@ -4,20 +4,52 @@
 @import './scrollbar.css';
 
 @theme {
-	/* colors */
+	/* brand colors */
+	--color-terracotta100: #7c2d12;
+	--color-terracotta80: #9a3412;
+	--color-terracotta60: #b45309;
+	--color-terracotta40: #ea8a3e;
+	--color-terracotta20: #fbd9b8;
+	--color-terracotta05: #fdf2e6;
+
+	--color-olive100: #1a2e05;
+	--color-olive80: #365314;
+	--color-olive60: #4d7c0f;
+	--color-olive40: #84cc16;
+	--color-olive20: #d9f99d;
+	--color-olive05: #f7fee7;
+
+	--color-sand100: #1c1917;
+	--color-sand80: #44403c;
+	--color-sand60: #78716c;
+	--color-sand40: #a8a29e;
+	--color-sand20: #e7e5e4;
+	--color-sand10: #f5f4f0;
+	--color-sand05: #faf7f2;
+	--color-sand00: #ffffff;
+
+	/* semantic aliases */
+	--color-primary: var(--color-terracotta60);
+	--color-primary-hover: var(--color-terracotta80);
+	--color-accent: var(--color-olive60);
+	--color-bg: var(--color-sand05);
+	--color-bg-card: var(--color-sand00);
+	--color-text: var(--color-sand100);
+	--color-text-muted: var(--color-sand60);
+	--color-border: var(--color-sand20);
+
+	/* legacy aliases kept for project rules (vue-components.md mentions secondary80, gray100, gray30) */
 	--color-black: #000;
-	--color-gray100: #3a394c;
-	--color-gray80: #585858;
-	--color-gray40: #bebec5;
-	--color-gray30: #d9d9dd;
 	--color-white: #fff;
 	--color-transparent: transparent;
 	--color-current: currentcolor;
-	--color-primary100: #2e2e2e;
-	--color-primary50: #696969;
-	--color-primary20: #a1a1a1;
-	--color-primary05: #eee;
-	--color-primary0: #efefef;
+	--color-gray100: var(--color-sand100);
+	--color-gray80: var(--color-sand80);
+	--color-gray40: var(--color-sand40);
+	--color-gray30: var(--color-sand20);
+	--color-secondary80: var(--color-terracotta60);
+
+	/* status */
 	--color-success100: #379c75;
 	--color-success05: #cbe9de;
 	--color-warning100: #a64f21;
@@ -27,11 +59,46 @@
 	--color-alert05: #f9d3d4;
 
 	/* fonts */
-	--font-sans: 'Arial';
-	--font-serif: 'Times New Roman';
+	--font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+	--font-serif: 'Fraunces', 'Georgia', serif;
 
+	/* shadows */
+	--shadow-layer-1: 0 1px 2px 0 rgba(28, 25, 23, 0.06);
+	--shadow-layer-2: 0 4px 12px -2px rgba(28, 25, 23, 0.08);
+	--shadow-layer-3: 0 12px 32px -8px rgba(28, 25, 23, 0.14);
+}
+
+@layer base {
+	html {
+		color: var(--color-text);
+		background-color: var(--color-bg);
+		font-family: var(--font-sans);
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	body {
+		min-height: 100vh;
+	}
+
+	h1, h2, h3, h4 {
+		font-family: var(--font-serif);
+		letter-spacing: -0.02em;
+	}
 }
 
 @layer components {
-	
+	.rich-body p {
+		margin-bottom: 1rem;
+	}
+
+	.rich-body p:last-child {
+		margin-bottom: 0;
+	}
+
+	.rich-body a {
+		color: var(--color-primary);
+		text-decoration: underline;
+		text-underline-offset: 2px;
+	}
 }
