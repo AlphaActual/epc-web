@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} \\(size: %{size_download} bytes, time: %{time_total}s\\)\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} /en/\\\\n\" http://localhost:3000/en/)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} /o-nama\\\\n\" http://localhost:3000/o-nama)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} /en/about\\\\n\" http://localhost:3000/en/about)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} /bogosluzja\\\\n\" http://localhost:3000/bogosluzja)",
+      "Bash(grep -iE \"error|warn|fail\" \"C:\\\\\\\\Users\\\\\\\\tinpr\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\C--Users-tinpr-Documents-epc-web\\\\\\\\7db0b769-efd1-42e1-b891-da1db34d72af\\\\\\\\tasks\\\\\\\\bw3dumtb9.output\")",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(curl -s http://localhost:3000/en/)",
+      "Bash(:)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} /\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} /en/services\\\\n\" http://localhost:3000/en/services)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} /propovijedi\\\\n\" http://localhost:3000/propovijedi)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} /en/sermons\\\\n\" http://localhost:3000/en/sermons)",
+      "Bash(ls *)"
+    ]
+  }
+}

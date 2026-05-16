@@ -1,6 +1,364 @@
 {
 	"seo": {
-		"title": "Page title",
-		"description": "Page description"
+		"title": "EPC Rovinj — Church with a Pulse",
+		"description": "Pentecostal church in Rovinj, Croatia. A living community of faith, prayer and the Holy Spirit. Join us Sundays at 10:00 AM."
+	},
+	"common": {
+		"learn_more": "Learn more",
+		"read_more": "Read more",
+		"watch": "Watch",
+		"listen": "Listen",
+		"contact_us": "Contact us",
+		"send": "Send",
+		"loading": "Loading…",
+		"all": "All",
+		"search": "Search",
+		"close": "Close",
+		"open_menu": "Open menu",
+		"close_menu": "Close menu",
+		"language": "Language",
+		"coming_soon": "Coming soon",
+		"coming_soon_body": "This page is in the works. We'll be back with more soon."
+	},
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"services": "Services",
+		"sermons": "Sermons",
+		"ministries": "Ministries",
+		"blog": "Blog",
+		"prayer": "Prayer requests",
+		"give": "Give",
+		"contact": "Contact"
+	},
+	"church": {
+		"name": "EPC Rovinj",
+		"full_name": "Evangelical Pentecostal Church Rovinj",
+		"tagline": "Church with a pulse"
+	},
+	"home": {
+		"hero": {
+			"eyebrow": "Welcome to EPC Rovinj",
+			"title_lead": "A church with a",
+			"title_accent": "pulse",
+			"subtitle": "A living community gathered around Jesus Christ in the heart of Rovinj. Join us on Sundays — faith, prayer, and the Holy Spirit for real life.",
+			"cta_primary": "Visit us this Sunday",
+			"cta_secondary": "Listen to a sermon"
+		},
+		"next_service": {
+			"label": "Next service",
+			"every_sunday": "Every Sunday",
+			"time": "10:00",
+			"location": "Istarska ulica 12, Rovinj",
+			"directions": "Get directions"
+		},
+		"beliefs_intro": {
+			"eyebrow": "Who we are",
+			"title": "A faith that breathes, a community that lives",
+			"body": "We believe God is alive, Jesus Christ is Saviour, and the Holy Spirit still moves in our lives today. We are a Pentecostal church — rooted in the Bible, open to the Spirit, devoted to one another and to the city of Rovinj.",
+			"cta": "Read our beliefs"
+		},
+		"latest_sermons": {
+			"eyebrow": "From the archive",
+			"title": "Latest sermons",
+			"view_all": "View all sermons"
+		},
+		"upcoming_events": {
+			"eyebrow": "What's next",
+			"title": "Upcoming events",
+			"view_all": "Full calendar"
+		},
+		"map_callout": {
+			"eyebrow": "Visit us",
+			"title": "You'll find us in the heart of Rovinj",
+			"body": "Open doors every Sunday. Easy parking, short walk from the waterfront.",
+			"cta": "Open in Google Maps"
+		}
+	},
+	"about": {
+		"hero": {
+			"eyebrow": "About us",
+			"title": "A church with a pulse — in Rovinj since 2009",
+			"subtitle": "Our story is the story of God's faithfulness — from a small prayer group to a living church family."
+		},
+		"history": {
+			"title": "Our story",
+			"body_1": "EPC Rovinj grew out of a prayer group meeting in homes in the early 2000s. With a desire for Rovinj to have a living Pentecostal community, we were officially registered as a church in 2009.",
+			"body_2": "Over the years we've grown as a family — baptisms in the sea, summer conferences, home groups across town, and a warm welcome for everyone who walks through our doors.",
+			"body_3": "Today we gather in our space on Istarska street, but the heart of the church is still the people — locals and visitors who've found a spiritual home."
+		},
+		"beliefs": {
+			"title": "What we believe",
+			"intro": "We stand on the Holy Scriptures and on the classic Christian faith expressed in the Apostles' Creed, with a Pentecostal emphasis on the work of the Holy Spirit.",
+			"items": {
+				"bible": {
+					"title": "The Bible",
+					"body": "We believe the Bible is the inspired Word of God, authoritative for faith and life."
+				},
+				"god": {
+					"title": "The triune God",
+					"body": "We believe in one God — Father, Son, and Holy Spirit."
+				},
+				"jesus": {
+					"title": "Jesus Christ",
+					"body": "We believe Jesus Christ is the Son of God, Saviour of the world, who died, rose, and lives."
+				},
+				"salvation": {
+					"title": "Salvation",
+					"body": "Salvation is a gift of grace, received by faith in Jesus Christ — not by works."
+				},
+				"spirit": {
+					"title": "Baptism in the Holy Spirit",
+					"body": "We believe in the baptism in the Holy Spirit, empowering the believer for life and service."
+				},
+				"gifts": {
+					"title": "Gifts of the Spirit",
+					"body": "We believe the Holy Spirit still gives gifts today — prophecy, tongues, healing, service — for the building up of the Church."
+				},
+				"church": {
+					"title": "The Church",
+					"body": "The Church is the body of Christ — a community of believers called to fellowship, worship, and mission."
+				},
+				"return": {
+					"title": "Christ's return",
+					"body": "We look forward to the soon and personal return of Jesus Christ for His Church."
+				}
+			}
+		},
+		"mission": {
+			"title": "Vision and mission",
+			"vision_label": "Vision",
+			"vision_body": "To be a church with a pulse in Rovinj — alive, warm, accessible, and open to anyone seeking God.",
+			"mission_label": "Mission",
+			"mission_body": "To proclaim the gospel of Jesus Christ, to disciple believers into the life of Christ, and to lovingly serve the city of Rovinj through prayer, the Word, and concrete acts of care."
+		},
+		"leadership": {
+			"title": "Leadership",
+			"subtitle": "A team that cares for the community and walks before God in prayer."
+		}
+	},
+	"leadership": {
+		"roles": {
+			"senior_pastor": "Senior Pastor",
+			"elder": "Elder",
+			"worship_lead": "Worship Lead",
+			"youth_lead": "Youth Lead"
+		},
+		"bios": {
+			"pastor_ivan": "Ivan has led EPC Rovinj since 2012. A passionate preacher of the Word and a shepherd with an open heart for the city.",
+			"elder_marko": "Marko serves as elder and teacher — leading Bible studies and mentoring younger men.",
+			"worship_lead_ana": "Ana leads the worship team and Sunday services — she believes praise opens heaven.",
+			"youth_lead_petar": "Petar is with the youth all week — from Friday nights to summer beach hangouts."
+		}
+	},
+	"schedule": {
+		"hero": {
+			"eyebrow": "Services and events",
+			"title": "When we gather",
+			"subtitle": "The weekly rhythm of our church and special events through the year — all in one place."
+		},
+		"recurring_title": "Weekly gatherings",
+		"recurring_subtitle": "Our weekly rhythm.",
+		"events_title": "Special events",
+		"events_subtitle": "Conferences, baptisms, worship nights, and seminars.",
+		"days": {
+			"sunday": "Sunday",
+			"monday": "Monday",
+			"tuesday": "Tuesday",
+			"wednesday": "Wednesday",
+			"thursday": "Thursday",
+			"friday": "Friday",
+			"saturday": "Saturday"
+		},
+		"locations": {
+			"main_hall": "Main hall, Istarska 12",
+			"youth_room": "Youth room, Istarska 12",
+			"various_homes": "Homes across Rovinj"
+		},
+		"recurring": {
+			"sunday_service": {
+				"title": "Sunday service",
+				"description": "Our main weekly gathering — worship, preaching, prayer, and fellowship. Open to everyone."
+			},
+			"prayer_meeting": {
+				"title": "Prayer meeting",
+				"description": "An open hour of prayer for the city, the church, and personal needs."
+			},
+			"bible_study": {
+				"title": "Bible study",
+				"description": "Walking through books of Scripture — questions, discussion, application."
+			},
+			"youth_group": {
+				"title": "Youth group",
+				"description": "Teens and young adults up to 25 — worship, teaching, hangouts, games."
+			},
+			"home_groups": {
+				"title": "Home groups",
+				"description": "Small groups meeting in homes — where the church becomes family."
+			}
+		}
+	},
+	"events": {
+		"locations": {
+			"beach": "Red Island beach",
+			"istria_camp": "Camp Istra, inland"
+		},
+		"cta": {
+			"learn_more": "Learn more",
+			"register": "Sign up"
+		},
+		"baptism_service": {
+			"title": "Baptism in the sea",
+			"description": "Public baptism of believers — a celebration of new faith with song, testimonies, and a picnic to follow."
+		},
+		"summer_conference": {
+			"title": "Summer Conference 'Pulse 2026'",
+			"description": "Three days together — guest preachers, worship, healing services, and workshops."
+		},
+		"worship_night": {
+			"title": "Worship night",
+			"description": "Open to everyone — ninety minutes of worship, prayer, and quiet rest before God."
+		},
+		"kids_camp": {
+			"title": "Kids camp",
+			"description": "Five days of fun, Bible stories, and friendships — for kids ages 7 to 12."
+		}
+	},
+	"sermons": {
+		"hero": {
+			"eyebrow": "Media library",
+			"title": "Sermons",
+			"subtitle": "Archive of Sunday sermons — listen, watch, share."
+		},
+		"filters": {
+			"search_placeholder": "Search by title or scripture…",
+			"all_speakers": "All speakers",
+			"all_series": "All series",
+			"all_topics": "All topics",
+			"clear": "Clear filters",
+			"results": "{count} sermons",
+			"results_one": "{count} sermon",
+			"results_few": "{count} sermons",
+			"no_results": "No results for the selected filters."
+		},
+		"watch_on_youtube": "Watch on YouTube",
+		"speakers": {
+			"pastor_ivan": "Ivan Horvat",
+			"guest_pastor": "Guest preacher",
+			"elder_marko": "Marko Babić"
+		},
+		"series": {
+			"pulse_of_faith": "Pulse of Faith",
+			"walking_in_spirit": "Walking in the Spirit",
+			"standalone": "Standalone"
+		},
+		"topics": {
+			"faith": "Faith",
+			"holy_spirit": "Holy Spirit",
+			"prayer": "Prayer",
+			"grace": "Grace",
+			"salvation": "Salvation",
+			"character": "Character",
+			"service": "Service",
+			"community": "Community"
+		},
+		"list": {
+			"pulse_of_faith": {
+				"title": "Pulse of Faith",
+				"scripture": "Mark 11:22–24",
+				"summary": "What it means to have faith in a God who answers — and how faith shapes the daily pulse of our lives."
+			},
+			"living_water": {
+				"title": "Living Water",
+				"scripture": "John 7:37–39",
+				"summary": "Jesus' invitation to the thirsty — and the promise of the Spirit as rivers flowing from us into the world."
+			},
+			"grace_that_changes": {
+				"title": "Grace That Changes",
+				"scripture": "Ephesians 2:1–10",
+				"summary": "Salvation is a gift — but grace doesn't leave us where it found us."
+			},
+			"house_of_prayer": {
+				"title": "House of Prayer",
+				"scripture": "Isaiah 56:7",
+				"summary": "God wants His people known by prayer. What does that mean for EPC Rovinj?"
+			},
+			"fruit_of_the_spirit": {
+				"title": "Fruit of the Spirit",
+				"scripture": "Galatians 5:22–23",
+				"summary": "Nine qualities the Spirit grows in a believer who walks closely with Him."
+			},
+			"called_to_serve": {
+				"title": "Called to Serve",
+				"scripture": "Mark 10:43–45",
+				"summary": "Greatness in Christ's kingdom is measured by service — what that looks like in Rovinj in 2026."
+			}
+		}
+	},
+	"ministries": {
+		"hero": {
+			"eyebrow": "Ministries",
+			"title": "Ways we serve, and how you can get involved",
+			"subtitle": "The church is a family that builds together. These are the teams through which we do it."
+		},
+		"children": {
+			"title": "Children's program",
+			"description": "During Sunday service, kids have their own age-appropriate program — Bible, creative activities, and play."
+		},
+		"youth": {
+			"title": "Youth",
+			"description": "Teens and young adults gather on Fridays — worship, conversations about faith and life, hangouts."
+		},
+		"home_groups": {
+			"title": "Home groups",
+			"description": "Smaller groups meeting in homes — Bible study, prayer, and authentic fellowship."
+		},
+		"worship": {
+			"title": "Worship team",
+			"description": "Musicians and singers who lead the church in worship on Sundays and special events."
+		},
+		"evangelism": {
+			"title": "Evangelism",
+			"description": "Practical sharing of the good news in our city — street outreaches, creative events, summer missions."
+		},
+		"social": {
+			"title": "Social and humanitarian work",
+			"description": "Concrete love for the city — helping families in need, partnering with local initiatives."
+		}
+	},
+	"contact": {
+		"hero": {
+			"eyebrow": "Contact",
+			"title": "Get in touch",
+			"subtitle": "Whether you have a question, want to visit, or just want to talk — we're here."
+		},
+		"info": {
+			"address_label": "Address",
+			"phone_label": "Phone",
+			"email_label": "Email",
+			"hours_label": "Service",
+			"hours_value": "Sundays at 10:00 AM"
+		},
+		"form": {
+			"title": "Send us a message",
+			"name": "Full name",
+			"email": "Email",
+			"subject": "Subject",
+			"message": "Message",
+			"submit": "Send message",
+			"placeholder_message": "How can we help?"
+		},
+		"socials": {
+			"title": "Follow us",
+			"subtitle": "Latest sermons and news, live."
+		}
+	},
+	"footer": {
+		"about_blurb": "A Pentecostal church in the heart of Rovinj. Open doors for everyone — believers, seekers, and visitors.",
+		"nav_title": "Pages",
+		"contact_title": "Contact",
+		"socials_title": "Social media",
+		"rights": "All rights reserved.",
+		"made_with": "Church with a pulse"
 	}
 }

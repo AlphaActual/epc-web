@@ -7,12 +7,12 @@ const { t } = useI18n();
 const i18nHead = useLocaleHead();
 
 useHead({
-	...i18nHead.value
+	...i18nHead.value,
 });
 
 useSeoMeta({
-	titleTemplate: titleChunk => (titleChunk ? `${titleChunk} | ${config.public.appName}` : config.public.appName),
-	ogTitle: t('seo.title') + ' | ' + config.public.appName,
+	titleTemplate: titleChunk => (titleChunk ? `${titleChunk} | ${config.public.appName}` : t('seo.title')),
+	ogTitle: t('seo.title'),
 	description: t('seo.description'),
 	ogDescription: t('seo.description'),
 	ogImage: url.origin + img('/img/og-image.jpg'),
@@ -25,17 +25,18 @@ useSchemaOrg([
 	}),
 
 	defineOrganization({
-		name: config.public.appName,
+		name: t('church.full_name'),
 		logo: img('/img/logo.png'),
 	}),
 ]);
-
 </script>
 
 <template>
-	<div>
-		
-		<NuxtPage />
-		
+	<div class="flex min-h-screen flex-col bg-sand05">
+		<LayoutHeader />
+		<main class="flex-1">
+			<NuxtPage />
+		</main>
+		<LayoutFooter />
 	</div>
 </template>

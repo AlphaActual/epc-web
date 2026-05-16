@@ -1,25 +1,22 @@
 <script lang="ts" setup>
-const config = useRuntimeConfig();
 const { t } = useI18n();
-const { versions } = useNuxtApp();
+
+definePageMeta({
+	name: 'index',
+});
 
 useSeoMeta({
-	title: t('seo.title'),
+	title: t('church.tagline'),
 });
 </script>
 
 <template>
 	<div>
-		<h1>{{ config.public.appName }}</h1>
-
-		<h2>
-			Nuxt version: <code>{{ versions.nuxt }}</code>
-		</h2>
-
-		<h2>
-			Vue version: <code>{{ versions.vue }}</code>
-		</h2>
-
-		<Image src="/img/logo.png" />
+		<HomeHero />
+		<HomeNextService />
+		<HomeBeliefsIntro />
+		<HomeLatestSermons />
+		<HomeUpcomingEvents />
+		<HomeMapCallout />
 	</div>
 </template>
