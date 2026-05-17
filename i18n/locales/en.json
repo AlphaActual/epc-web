@@ -38,12 +38,15 @@
 	},
 	"home": {
 		"hero": {
-			"eyebrow": "Welcome to EPC Rovinj",
-			"title_lead": "A church with a",
-			"title_accent": "pulse",
-			"subtitle": "A living community gathered around Jesus Christ in the heart of Rovinj. Join us on Sundays — faith, prayer, and the Holy Spirit for real life.",
-			"cta_primary": "Visit us this Sunday",
-			"cta_secondary": "Listen to a sermon"
+			"eyebrow": "Evangelical Pentecostal church in Rovinj",
+			"title_lead": "Church with ",
+			"title_accent": "a pulse.",
+			"subtitle": "Sunday worship, honest prayer, Scripture, and a community that opens its arms before it asks anything of you.",
+			"cta_primary": "Plan your first visit",
+			"cta_secondary": "Hear a recent sermon",
+			"side_label": "What this gathering feels like",
+			"side_title": "No performance. No pressure. Space to breathe, belong, and seek God.",
+			"image_alt": "View of Rovinj old town by the sea"
 		},
 		"next_service": {
 			"label": "Next service",
@@ -243,13 +246,18 @@
 		},
 		"watch_on_youtube": "Watch on YouTube",
 		"speakers": {
-			"pastor_ivan": "Ivan Horvat",
-			"guest_pastor": "Guest preacher",
-			"elder_marko": "Marko Babić"
+			"matija_bacac": "Matija Bačac",
+			"goran_roksandic": "Goran Roksandić",
+			"jure_dohnal": "Jure Dohnal",
+			"katka_dohnalov": "Katka Dohnalová",
+			"tin_pritisanac": "Tin Pritišanac",
+			"fabiola_bacac": "Fabiola Bačac",
+			"andrea_bacac": "Andrea Bačac",
+			"tereza_bacac": "Tereza Bačac",
+			"vukasin_vukovic": "Vukašin Vuković",
+			"eva_husak_bacac": "Eva Husak Bačac"
 		},
 		"series": {
-			"pulse_of_faith": "Pulse of Faith",
-			"walking_in_spirit": "Walking in the Spirit",
 			"standalone": "Standalone"
 		},
 		"topics": {
@@ -263,35 +271,125 @@
 			"community": "Community"
 		},
 		"list": {
-			"pulse_of_faith": {
-				"title": "Pulse of Faith",
-				"scripture": "Mark 11:22–24",
-				"summary": "What it means to have faith in a God who answers — and how faith shapes the daily pulse of our lives."
+			"sto_je_moj_poziv": {
+				"title": "What Is My Calling",
+				"scripture": "",
+				"summary": "Who am I, where am I going, and what does God expect of me — a sermon on discovering and living your calling."
 			},
-			"living_water": {
-				"title": "Living Water",
-				"scripture": "John 7:37–39",
-				"summary": "Jesus' invitation to the thirsty — and the promise of the Spirit as rivers flowing from us into the world."
+			"nova_sansa": {
+				"title": "A New Chance",
+				"scripture": "",
+				"summary": "God is the God of new beginnings. A sermon on how His grace opens doors we thought were closed forever."
 			},
-			"grace_that_changes": {
-				"title": "Grace That Changes",
-				"scripture": "Ephesians 2:1–10",
-				"summary": "Salvation is a gift — but grace doesn't leave us where it found us."
+			"ne_ide_vise_ovako": {
+				"title": "This Can't Go On",
+				"scripture": "",
+				"summary": "A moment of honest confrontation with what isn't working — and an invitation to turn back to God."
 			},
-			"house_of_prayer": {
-				"title": "House of Prayer",
-				"scripture": "Isaiah 56:7",
-				"summary": "God wants His people known by prayer. What does that mean for EPC Rovinj?"
+			"lav_i_janje": {
+				"title": "The Lion and the Lamb",
+				"scripture": "Revelation 5:5",
+				"summary": "Jesus is both Lion and Lamb — the reigning Lord and the sacrificed Saviour. A sermon on Christ's authority and His sacrifice."
 			},
-			"fruit_of_the_spirit": {
-				"title": "Fruit of the Spirit",
-				"scripture": "Galatians 5:22–23",
-				"summary": "Nine qualities the Spirit grows in a believer who walks closely with Him."
+			"nemoguci_problem": {
+				"title": "The Impossible Problem",
+				"scripture": "",
+				"summary": "When the problem is bigger than any solution — a sermon on where to look for help when our own strength runs out."
 			},
-			"called_to_serve": {
-				"title": "Called to Serve",
-				"scripture": "Mark 10:43–45",
-				"summary": "Greatness in Christ's kingdom is measured by service — what that looks like in Rovinj in 2026."
+			"dva_tri_najteza_dana": {
+				"title": "2 – 3 Hardest Days",
+				"scripture": "",
+				"summary": "A sermon about the hardest days of life — and what happens when God stays with us through them."
+			},
+			"modern_pioneer_ii": {
+				"title": "Modern Pioneer Part II",
+				"scripture": "",
+				"summary": "Continuation of a sermon on the life of a faith pioneer in the modern world — courage, vision, and commitment to the call."
+			},
+			"tko_ima_i_tko_nema": {
+				"title": "Have and Have Not",
+				"scripture": "",
+				"summary": "Jesus' principles on giving and receiving, wealth and need — and how those who have are called to live before God."
+			},
+			"o_obaziranju_nazad": {
+				"title": "Looking Back and Looking Forward",
+				"scripture": "",
+				"summary": "The lesson of Lot's wife and God's invitation to all who are held captive by the past — let go and move forward."
+			},
+			"oslobadajuce_svjetlo": {
+				"title": "Liberating Light",
+				"scripture": "",
+				"summary": "A sermon on Jesus' declaration 'I am the light of the world' — and the freedom that comes from truly seeing ourselves and God."
+			},
+			"ev_mateju_18_15": {
+				"title": "Matthew 18:15",
+				"scripture": "Matthew 18:15",
+				"summary": "Jesus' instruction for resolving conflict in the community — practical application of biblical reconciliation in church and relationships."
+			},
+			"kampiranje_na_bozjem_ognistu": {
+				"title": "Camping at God's Hearth",
+				"scripture": "",
+				"summary": "A sermon about dwelling continuously in God's presence — prayer, praise, and daily fellowship with God."
+			},
+			"istinska_zrtva": {
+				"title": "The True Sacrifice",
+				"scripture": "",
+				"summary": "What God truly asks of us — a sermon on the difference between religious performance and living faith expressed in surrender."
+			},
+			"skola_pustinje": {
+				"title": "School of the Desert",
+				"scripture": "",
+				"summary": "The desert is not punishment — it is God's school. A sermon on what God teaches His people in seasons of waiting and silence."
+			},
+			"marija_i_navjestenje": {
+				"title": "Mary and the Annunciation",
+				"scripture": "",
+				"summary": "A sermon on Mary's faith and obedience to God's call — a message for all who find themselves before an unexpected plan of God."
+			},
+			"test_u_pustinji": {
+				"title": "Test in the Desert",
+				"scripture": "",
+				"summary": "Temptations are not random — God allows tests that reveal who we are and strengthen what we are. A sermon on Jesus' temptations."
+			},
+			"bdijte_da_ne_padnete": {
+				"title": "Watch and Pray",
+				"scripture": "Matthew 26:41",
+				"summary": "Jesus' call to the apostles in Gethsemane: watch and pray. A sermon on spiritual alertness and a life of prayer."
+			},
+			"usi_koje_cuju": {
+				"title": "Ears That Hear, Eyes That See",
+				"scripture": "",
+				"summary": "A sermon on spiritual sensitivity — why some hear God's voice and others don't, and how to cultivate a heart that recognises God."
+			},
+			"proklamiranje_evandjelja": {
+				"title": "Proclaiming the Gospel",
+				"scripture": "",
+				"summary": "The church is not called to guard the gospel — but to proclaim it. A sermon on courage and the call to witness."
+			},
+			"ne_sramim_se_evandjelja": {
+				"title": "Not Ashamed of the Gospel",
+				"scripture": "Romans 1:16",
+				"summary": "Paul's bold declaration from Romans 1:16 — and what it means to carry the gospel with pride and without shame today."
+			},
+			"rimljanima_poslanica": {
+				"title": "Paul's Letter to the Romans",
+				"scripture": "",
+				"summary": "A sermon from Paul's letter to the Romans — on God's righteousness, faith, and the power of the gospel for all who believe."
+			},
+			"sira_slika": {
+				"title": "The Bigger Picture",
+				"scripture": "",
+				"summary": "When we can't see the meaning in what we're going through, God sees the bigger picture. A sermon on trusting the God who holds everything."
+			},
+			"znas_li_sta_imas": {
+				"title": "Do You Know What You Have?",
+				"scripture": "",
+				"summary": "A sermon on the wealth of our spiritual inheritance in Christ — and how believers often live below the level of what has been given to them."
+			},
+			"kako_primas": {
+				"title": "How You Receive",
+				"scripture": "",
+				"summary": "The posture of the heart before God determines how much we receive from Him — and why sometimes we receive nothing at all."
 			}
 		}
 	},

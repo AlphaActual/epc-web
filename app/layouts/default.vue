@@ -32,11 +32,12 @@ useSchemaOrg([
 </script>
 
 <template>
-	<div class="flex min-h-screen flex-col bg-sand05">
+	<div class="flex min-h-screen flex-col bg-bg">
 		<LayoutHeader />
 		<main class="flex-1">
 			<NuxtPage />
 		</main>
 		<LayoutFooter />
+		<PaletteSwitcher />
 	</div>
 </template>

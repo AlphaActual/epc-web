@@ -95,7 +95,7 @@ export default defineNuxtConfig({
 		},
 		families: [
 			{ name: 'Inter', provider: 'google', weights: [300, 400, 500, 600, 700] },
-			{ name: 'Fraunces', provider: 'google', weights: [400, 500, 600, 700], styles: ['normal', 'italic'] },
+			{ name: 'Newsreader', provider: 'google', weights: [400, 500, 600, 700], styles: ['normal', 'italic'] },
 		],
 	},
 

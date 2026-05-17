@@ -38,12 +38,15 @@
 	},
 	"home": {
 		"hero": {
-			"eyebrow": "Dobrodošli u EPC Rovinj",
-			"title_lead": "Crkva s",
-			"title_accent": "pulsom",
-			"subtitle": "Živa zajednica koja se okuplja oko Isusa Krista u srcu Rovinja. Pridruži nam se nedjeljom — vjera, molitva i Duh Sveti za stvarni život.",
-			"cta_primary": "Posjeti nas u nedjelju",
-			"cta_secondary": "Slušaj propovijed"
+			"eyebrow": "Evanđeoska pentekostna crkva u Rovinju",
+			"title_lead": "Crkva s ",
+			"title_accent": "pulsom.",
+			"subtitle": "Nedjeljno slavljenje, iskrena molitva, Božja riječ i zajednica koja najprije otvara ruke, a tek onda postavlja pitanja.",
+			"cta_primary": "Planiraj prvi dolazak",
+			"cta_secondary": "Poslušaj nedavnu propovijed",
+			"side_label": "Kako izgleda ovo okupljanje",
+			"side_title": "Bez predstave. Bez pritiska. Prostor da udahneš, pripadaš i tražiš Boga.",
+			"image_alt": "Pogled na staru jezgru Rovinja uz more"
 		},
 		"next_service": {
 			"label": "Sljedeće bogoslužje",
@@ -243,13 +246,18 @@
 		},
 		"watch_on_youtube": "Pogledaj na YouTube",
 		"speakers": {
-			"pastor_ivan": "Ivan Horvat",
-			"guest_pastor": "Gostujući propovjednik",
-			"elder_marko": "Marko Babić"
+			"matija_bacac": "Matija Bačac",
+			"goran_roksandic": "Goran Roksandić",
+			"jure_dohnal": "Jure Dohnal",
+			"katka_dohnalov": "Katka Dohnalová",
+			"tin_pritisanac": "Tin Pritišanac",
+			"fabiola_bacac": "Fabiola Bačac",
+			"andrea_bacac": "Andrea Bačac",
+			"tereza_bacac": "Tereza Bačac",
+			"vukasin_vukovic": "Vukašin Vuković",
+			"eva_husak_bacac": "Eva Husak Bačac"
 		},
 		"series": {
-			"pulse_of_faith": "Puls vjere",
-			"walking_in_spirit": "Hod u Duhu",
 			"standalone": "Samostalno"
 		},
 		"topics": {
@@ -263,35 +271,125 @@
 			"community": "Zajednica"
 		},
 		"list": {
-			"pulse_of_faith": {
-				"title": "Puls vjere",
-				"scripture": "Marko 11,22–24",
-				"summary": "Što znači imati vjeru u Boga koji odgovara — i kako vjera oblikuje svakodnevni puls naših života."
+			"sto_je_moj_poziv": {
+				"title": "Što je moj poziv",
+				"scripture": "",
+				"summary": "Tko sam, kamo idem i što Bog od mene očekuje — propovijed o otkrivanju i življenju svog poziva."
 			},
-			"living_water": {
-				"title": "Živa voda",
-				"scripture": "Ivan 7,37–39",
-				"summary": "Isusov poziv žednima — i obećanje Duha kao rijeke koja teče iz nas prema svijetu."
+			"nova_sansa": {
+				"title": "Nova šansa",
+				"scripture": "",
+				"summary": "Bog je Bog novih početaka. Propovijed o tome kako Njegova milost otvara vrata koja smo mislili da su zauvijek zatvorena."
 			},
-			"grace_that_changes": {
-				"title": "Milost koja mijenja",
-				"scripture": "Efežanima 2,1–10",
-				"summary": "Spasenje je dar — ali milost nas ne ostavlja gdje nas je našla."
+			"ne_ide_vise_ovako": {
+				"title": "Ne ide više ovako",
+				"scripture": "",
+				"summary": "Trenutak iskrenog suočavanja s onim što ne funkcionira — i poziv na duhovni zaokret prema Bogu."
 			},
-			"house_of_prayer": {
-				"title": "Kuća molitve",
-				"scripture": "Izaija 56,7",
-				"summary": "Bog želi da Njegov narod bude prepoznat po molitvi. Što to znači za EPC Rovinj?"
+			"lav_i_janje": {
+				"title": "Lav i janje",
+				"scripture": "Otkrivenje 5,5",
+				"summary": "Isus je istovremeno lav i janje — vladajući Gospodin i žrtvovani Spasitelj. Propovijed o Kristovoj vlasti i Njegovoj žrtvi."
 			},
-			"fruit_of_the_spirit": {
-				"title": "Plod Duha",
-				"scripture": "Galaćanima 5,22–23",
-				"summary": "Devet osobina koje Duh proizvodi u životu vjernika koji s Njim hoda."
+			"nemoguci_problem": {
+				"title": "Nemogući problem",
+				"scripture": "",
+				"summary": "Kad je problem veći od svakog rješenja — propovijed o tome gdje tražiti pomoć kad nam vlastite snage ne dostaju."
 			},
-			"called_to_serve": {
-				"title": "Pozvani služiti",
-				"scripture": "Marko 10,43–45",
-				"summary": "Veličina u Kristovu kraljevstvu mjeri se služenjem — kako to izgleda u Rovinju 2026."
+			"dva_tri_najteza_dana": {
+				"title": "2 – 3 najteža dana",
+				"scripture": "",
+				"summary": "Propovijed o najtežim danima u životu — i o tome što se dogodi kad Bog ostane s nama kroz njih."
+			},
+			"modern_pioneer_ii": {
+				"title": "Modern pioneer part II",
+				"scripture": "",
+				"summary": "Nastavak propovijedi o životu pionira vjere u suvremenom svijetu — hrabrost, vizija i predanost pozivu."
+			},
+			"tko_ima_i_tko_nema": {
+				"title": "Tko ima i tko nema",
+				"scripture": "",
+				"summary": "Isusova načela o davanju i primanju, bogatstvu i siromaštvu — i kako oni koji imaju trebaju živjeti pred Bogom."
+			},
+			"o_obaziranju_nazad": {
+				"title": "O obaziranju nazad i gledanju naprijed",
+				"scripture": "",
+				"summary": "Pouka Lotove žene i poziv koji Bog upućuje svakom tko je zarobljen prošlošću — pusti i idi naprijed."
+			},
+			"oslobadajuce_svjetlo": {
+				"title": "Oslobađajuće svjetlo",
+				"scripture": "",
+				"summary": "Propovijed o Isusovoj izjavi 'Ja sam svjetlo svijeta' — i o slobodi koju donosi istinsko viđenje sebe i Boga."
+			},
+			"ev_mateju_18_15": {
+				"title": "Evanđelje po Mateju 18:15",
+				"scripture": "Matej 18,15",
+				"summary": "Isusova uputa za rješavanje sukoba u zajednici — praktična primjena biblijskog pomirenja u crkvi i međuljudskim odnosima."
+			},
+			"kampiranje_na_bozjem_ognistu": {
+				"title": "Kampiranje na Božjem ognjištu",
+				"scripture": "",
+				"summary": "Propovijed o trajnom boravku u Božjoj prisutnosti — molitva, hvala i svakodnevno zajedništvo s Bogom."
+			},
+			"istinska_zrtva": {
+				"title": "Istinska Žrtva",
+				"scripture": "",
+				"summary": "Što Bog uistinu traži od nas — propovijed o razlici između religioznog čina i žive vjere koja se izražava predanošću."
+			},
+			"skola_pustinje": {
+				"title": "Škola pustinje",
+				"scripture": "",
+				"summary": "Pustinja nije kazna — ona je Božja škola. Propovijed o tome što Bog uči svoje ljude u vremenima čekanja i tišine."
+			},
+			"marija_i_navjestenje": {
+				"title": "Marija & navještenje Isusovog rođenja",
+				"scripture": "",
+				"summary": "Propovijed o Marijinoj vjeri i poslušnosti na Božji poziv — poruka za sve koji se nalaze pred neočekivanim Božjim planom."
+			},
+			"test_u_pustinji": {
+				"title": "Test u pustinji",
+				"scripture": "",
+				"summary": "Kušnje nisu slučajne — Bog dopušta teste koji otkrivaju tko smo i jačaju ono što jesmo. Propovijed o Isusovim kušnjama."
+			},
+			"bdijte_da_ne_padnete": {
+				"title": "Bdijte da ne padnete u napast",
+				"scripture": "Matej 26,41",
+				"summary": "Isusov poziv apostolima u Getsemaniju: bdijte i molite. Propovijed o duhovnoj budnosti i molitvenom životu."
+			},
+			"usi_koje_cuju": {
+				"title": "Uši koje čuju i oči koje vide",
+				"scripture": "",
+				"summary": "Propovijed o duhovnoj osjetljivosti — zašto neki čuju Božji glas a drugi ne, i kako kultivirati srce koje prepoznaje Boga."
+			},
+			"proklamiranje_evandjelja": {
+				"title": "Proklamiranje evanđelja",
+				"scripture": "",
+				"summary": "Crkva nije pozvana čuvati evanđelje — nego ga proklamirati. Propovijed o hrabrosti i pozivu na svjedočenje."
+			},
+			"ne_sramim_se_evandjelja": {
+				"title": "Ne sramim se evanđelja",
+				"scripture": "Rimljanima 1,16",
+				"summary": "Pavlov smjeli iskaz iz Rimljanima 1:16 — i što znači nositi evanđelje s ponosom i bez srama u suvremenom kontekstu."
+			},
+			"rimljanima_poslanica": {
+				"title": "Rimljanima poslanica Apostola Pavla",
+				"scripture": "",
+				"summary": "Propovijed iz Pavlove poslanice Rimljanima — o pravednosti Božjoj, vjeri i snazi evanđelja za spasenje svakog tko vjeruje."
+			},
+			"sira_slika": {
+				"title": "Šira slika",
+				"scripture": "",
+				"summary": "Kad ne vidimo smisao u onome što prolazimo, Bog vidi širu sliku. Propovijed o vjeri u Boga koji drži sve konce u rukama."
+			},
+			"znas_li_sta_imas": {
+				"title": "Znaš li šta imaš?",
+				"scripture": "",
+				"summary": "Propovijed o bogatstvu duhovnog nasljeđa u Kristu — i o tome kako kršćani često žive ispod razine onoga što im je dano."
+			},
+			"kako_primas": {
+				"title": "Kako primaš, tako ćeš primiti, ili nećeš",
+				"scripture": "",
+				"summary": "Stav srca s kojim stojimo pred Bogom određuje koliko primamo od Njega — i zašto ponekad ne primamo ništa."
 			}
 		}
 	},

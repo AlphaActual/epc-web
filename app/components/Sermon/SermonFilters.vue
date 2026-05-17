@@ -10,9 +10,16 @@ const { t } = useI18n();
 
 const speakerOptions = [
 	{ value: '', label_key: 'sermons.filters.all_speakers' },
-	{ value: 'sermons.speakers.pastor_ivan', label_key: 'sermons.speakers.pastor_ivan' },
-	{ value: 'sermons.speakers.elder_marko', label_key: 'sermons.speakers.elder_marko' },
-	{ value: 'sermons.speakers.guest_pastor', label_key: 'sermons.speakers.guest_pastor' },
+	{ value: 'sermons.speakers.matija_bacac', label_key: 'sermons.speakers.matija_bacac' },
+	{ value: 'sermons.speakers.goran_roksandic', label_key: 'sermons.speakers.goran_roksandic' },
+	{ value: 'sermons.speakers.jure_dohnal', label_key: 'sermons.speakers.jure_dohnal' },
+	{ value: 'sermons.speakers.katka_dohnalov', label_key: 'sermons.speakers.katka_dohnalov' },
+	{ value: 'sermons.speakers.tin_pritisanac', label_key: 'sermons.speakers.tin_pritisanac' },
+	{ value: 'sermons.speakers.fabiola_bacac', label_key: 'sermons.speakers.fabiola_bacac' },
+	{ value: 'sermons.speakers.andrea_bacac', label_key: 'sermons.speakers.andrea_bacac' },
+	{ value: 'sermons.speakers.tereza_bacac', label_key: 'sermons.speakers.tereza_bacac' },
+	{ value: 'sermons.speakers.vukasin_vukovic', label_key: 'sermons.speakers.vukasin_vukovic' },
+	{ value: 'sermons.speakers.eva_husak_bacac', label_key: 'sermons.speakers.eva_husak_bacac' },
 ];
 
 const seriesOptions = computed(() => [

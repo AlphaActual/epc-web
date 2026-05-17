@@ -22,16 +22,12 @@ const year = new Date().getFullYear();
 		<Container size="xl">
 			<div class="grid gap-12 py-16 lg:grid-cols-4">
 				<div class="lg:col-span-2 max-w-md">
-					<div class="flex items-center gap-2.5">
-						<span class="inline-flex size-9 items-center justify-center rounded-full bg-terracotta60 text-white">
-							<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-								<path d="M12 2L9 9 2 9.5l5.5 4.8L6 22l6-3.5L18 22l-1.5-7.7L22 9.5 15 9z" />
-							</svg>
-						</span>
-						<span class="flex flex-col leading-tight">
-							<span class="font-serif text-lg font-bold text-white">EPC Rovinj</span>
-							<span class="text-xs font-medium text-terracotta40">{{ t('church.tagline') }}</span>
-						</span>
+					<div class="inline-flex rounded-xl bg-sand10 p-2">
+						<Image
+							src="/img/epc-rovinj-logo.jpeg"
+							:alt="t('church.name')"
+							class="h-12 w-auto"
+						/>
 					</div>
 					<p class="mt-5 text-sm leading-relaxed text-sand40">{{ t('footer.about_blurb') }}</p>
 

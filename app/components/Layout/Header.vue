@@ -52,16 +52,13 @@ watch(isOpen, val => {
 	>
 		<Container size="xl">
 			<div class="flex h-16 items-center justify-between lg:h-20">
-				<TLink to="index" class="group flex items-center gap-2.5" :aria-label="t('church.name')">
-					<span class="inline-flex size-9 items-center justify-center rounded-full bg-terracotta60 text-white">
-						<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-							<path d="M12 2L9 9 2 9.5l5.5 4.8L6 22l6-3.5L18 22l-1.5-7.7L22 9.5 15 9z" />
-						</svg>
-					</span>
-					<span class="flex flex-col leading-tight">
-						<span class="font-serif text-lg font-bold text-sand100">EPC Rovinj</span>
-						<span class="text-xs font-medium text-terracotta60">{{ t('church.tagline') }}</span>
-					</span>
+				<TLink to="index" class="group" :aria-label="t('church.name')">
+					<Image
+						src="/img/epc-rovinj-logo.jpeg"
+						:alt="t('church.name')"
+						class="h-10 w-auto mix-blend-multiply lg:h-12"
+						priority
+					/>
 				</TLink>
 
 				<nav class="hidden items-center gap-1 lg:flex" :aria-label="t('nav.home')">
@@ -82,9 +79,6 @@ watch(isOpen, val => {
 
 				<div class="flex items-center gap-3">
 					<LanguageSwitcher class="hidden sm:flex" />
-					<Button to="contact" variant="primary" size="sm" class="hidden md:inline-flex">
-						{{ t('common.contact_us') }}
-					</Button>
 					<button
 						type="button"
 						class="inline-flex size-10 items-center justify-center rounded-md text-sand100 hover:bg-sand10 lg:hidden"
@@ -122,9 +116,6 @@ watch(isOpen, val => {
 						</TLink>
 						<div class="mt-3 flex items-center justify-between border-t border-sand20 pt-4">
 							<LanguageSwitcher />
-							<Button to="contact" variant="primary" size="sm">
-								{{ t('common.contact_us') }}
-							</Button>
 						</div>
 					</nav>
 				</Container>

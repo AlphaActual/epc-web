@@ -1,9 +1,12 @@
 import { defineStore } from 'pinia';
 
+export type Palette = 'terracotta' | 'sky' | 'adriatic' | 'teal' | 'olive';
+
 export const usePersistedStore = defineStore(
 	'persisted',
 	() => {
-		return {};
+		const palette = ref<Palette>('terracotta');
+		return { palette };
 	},
 	{ persist: true },
 );
