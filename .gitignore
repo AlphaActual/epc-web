@@ -16,3 +16,4 @@ bun.lock
 .netlify
 *.tsbuildinfo
 .data
+node_modules

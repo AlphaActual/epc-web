@@ -8,20 +8,29 @@ const props = defineProps({
 });
 
 const alignClasses = computed(() => (props.align === 'center' ? 'text-center mx-auto' : 'text-left'));
-const eyebrowColor = computed(() => (props.tone === 'light' ? 'text-terracotta20' : 'text-terracotta60'));
-const titleColor = computed(() => (props.tone === 'light' ? 'text-white' : 'text-sand100'));
+const eyebrowColor = computed(() => (props.tone === 'light' ? 'text-terracotta20' : 'text-sand60'));
+const ruleColor = computed(() => (props.tone === 'light' ? 'bg-sand20/40' : 'bg-sand40'));
+const titleColor = computed(() => (props.tone === 'light' ? 'text-sand00' : 'text-sand100'));
 const subtitleColor = computed(() => (props.tone === 'light' ? 'text-sand20' : 'text-sand60'));
+const eyebrowFlex = computed(() => (props.align === 'center' ? 'justify-center' : ''));
 </script>
 
 <template>
 	<div :class="['max-w-3xl', alignClasses]">
-		<p v-if="eyebrow" :class="['text-sm font-semibold uppercase tracking-wider mb-3', eyebrowColor]">
-			{{ eyebrow }}
-		</p>
-		<h2 :class="['text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight', titleColor]">
+		<div v-if="eyebrow" :class="['flex items-center gap-3', eyebrowFlex]">
+			<span :class="['block h-px w-8', ruleColor]" aria-hidden="true" />
+			<p :class="['eyebrow', eyebrowColor]">{{ eyebrow }}</p>
+		</div>
+		<h2
+			:class="[
+				'mt-5 font-display leading-[1.02] tracking-tight',
+				'text-[clamp(2rem,4.5vw,4rem)]',
+				titleColor,
+			]"
+		>
 			{{ title }}
 		</h2>
-		<p v-if="subtitle" :class="['mt-4 text-lg leading-relaxed', subtitleColor]">
+		<p v-if="subtitle" :class="['mt-5 text-lg leading-relaxed', subtitleColor]">
 			{{ subtitle }}
 		</p>
 	</div>

@@ -18,72 +18,84 @@ const year = new Date().getFullYear();
 </script>
 
 <template>
-	<footer class="bg-sand100 text-sand20">
-		<Container size="xl">
-			<div class="grid gap-12 py-16 lg:grid-cols-4">
-				<div class="lg:col-span-2 max-w-md">
-					<div class="inline-flex rounded-xl bg-sand10 p-2">
-						<Image
-							src="/img/epc-rovinj-logo.jpeg"
-							:alt="t('church.name')"
-							class="h-12 w-auto"
-						/>
-					</div>
-					<p class="mt-5 text-sm leading-relaxed text-sand40">{{ t('footer.about_blurb') }}</p>
+	<footer class="relative isolate overflow-hidden bg-sand100 text-sand20">
+		<div class="grain absolute inset-0 opacity-40" aria-hidden="true" />
 
-					<div class="mt-6 flex items-center gap-3">
+		<Container size="xl" class="relative">
+			<!-- Top masthead row -->
+			<div class="flex flex-col gap-6 border-b border-sand80/60 py-10 sm:flex-row sm:items-end sm:justify-between">
+				<div>
+					<p class="font-mono text-xs uppercase tracking-[0.22em] text-sand40">— {{ t('church.full_name') }}</p>
+					<p class="mt-4 font-display text-5xl leading-none text-sand00 sm:text-6xl lg:text-7xl">
+						{{ t('church.tagline') }}<span class="text-terracotta40">.</span>
+					</p>
+				</div>
+				<div class="font-mono text-xs uppercase tracking-[0.22em] text-sand40">
+					<span>EST. MMIX · ROVINJ · HR</span>
+				</div>
+			</div>
+
+			<div class="grid gap-12 py-16 lg:grid-cols-12">
+				<div class="lg:col-span-5">
+					<p class="max-w-md text-sm leading-relaxed text-sand40">{{ t('footer.about_blurb') }}</p>
+
+					<div class="mt-8 flex items-center gap-3">
 						<a
 							v-for="s in socialLinks"
 							:key="s.platform"
 							:href="s.url"
 							target="_blank"
 							rel="noopener noreferrer"
-							class="inline-flex size-10 items-center justify-center rounded-full bg-sand80 text-sand20 transition-colors hover:bg-terracotta60 hover:text-white"
+							class="inline-flex size-10 items-center justify-center border border-sand80 text-sand20 transition-colors hover:border-terracotta40 hover:text-terracotta40"
 							:aria-label="s.platform"
 						>
-							<Icon :name="s.platform" :size="18" />
+							<Icon :name="s.platform" :size="16" />
 						</a>
 					</div>
 				</div>
 
-				<div>
-					<h3 class="font-serif text-base font-semibold text-white">{{ t('footer.nav_title') }}</h3>
-					<ul class="mt-4 space-y-2.5 text-sm">
+				<div class="lg:col-span-3">
+					<h3 class="eyebrow text-sand60">{{ t('footer.nav_title') }}</h3>
+					<ul class="mt-6 space-y-3">
 						<li v-for="item in navItems" :key="item.to">
-							<TLink :to="item.to" class="text-sand40 transition-colors hover:text-white">
+							<TLink :to="item.to" class="group inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.16em] text-sand20 transition-colors hover:text-terracotta40">
+								<span class="opacity-0 transition-opacity group-hover:opacity-100">→</span>
 								{{ item.label }}
 							</TLink>
 						</li>
 					</ul>
 				</div>
 
-				<div>
-					<h3 class="font-serif text-base font-semibold text-white">{{ t('footer.contact_title') }}</h3>
-					<ul class="mt-4 space-y-3 text-sm text-sand40">
-						<li class="flex items-start gap-2.5">
-							<Icon name="map_pin" :size="16" class="mt-0.5 shrink-0 text-terracotta40" />
-							<span>{{ contactInfo.address }}<br />{{ contactInfo.postal_code }} {{ contactInfo.city }}</span>
+				<div class="lg:col-span-4">
+					<h3 class="eyebrow text-sand60">{{ t('footer.contact_title') }}</h3>
+					<ul class="mt-6 space-y-4 text-sm">
+						<li>
+							<div class="font-mono text-[10px] uppercase tracking-[0.18em] text-sand60">{{ t('contact.info.address_label') }}</div>
+							<div class="mt-1.5 text-sand20">
+								{{ contactInfo.address }}<br />
+								{{ contactInfo.postal_code }} {{ contactInfo.city }}
+							</div>
 						</li>
-						<li class="flex items-start gap-2.5">
-							<Icon name="phone" :size="16" class="mt-0.5 shrink-0 text-terracotta40" />
-							<a :href="`tel:${contactInfo.phone}`" class="hover:text-white">{{ contactInfo.phone }}</a>
+						<li>
+							<div class="font-mono text-[10px] uppercase tracking-[0.18em] text-sand60">{{ t('contact.info.phone_label') }}</div>
+							<a :href="`tel:${contactInfo.phone}`" class="mt-1.5 inline-block tabular text-sand20 hover:text-terracotta40">{{ contactInfo.phone }}</a>
 						</li>
-						<li class="flex items-start gap-2.5">
-							<Icon name="mail" :size="16" class="mt-0.5 shrink-0 text-terracotta40" />
-							<a :href="`mailto:${contactInfo.email}`" class="hover:text-white">{{ contactInfo.email }}</a>
+						<li>
+							<div class="font-mono text-[10px] uppercase tracking-[0.18em] text-sand60">{{ t('contact.info.email_label') }}</div>
+							<a :href="`mailto:${contactInfo.email}`" class="mt-1.5 inline-block text-sand20 hover:text-terracotta40">{{ contactInfo.email }}</a>
 						</li>
-						<li class="flex items-start gap-2.5">
-							<Icon name="clock" :size="16" class="mt-0.5 shrink-0 text-terracotta40" />
-							<span>{{ t('contact.info.hours_value') }}</span>
+						<li>
+							<div class="font-mono text-[10px] uppercase tracking-[0.18em] text-sand60">{{ t('contact.info.hours_label') }}</div>
+							<div class="mt-1.5 text-sand20">{{ t('contact.info.hours_value') }}</div>
 						</li>
 					</ul>
 				</div>
 			</div>
 
-			<div class="flex flex-col items-center justify-between gap-3 border-t border-sand80 py-6 text-xs text-sand60 sm:flex-row">
-				<p>© {{ year }} EPC Rovinj. {{ t('footer.rights') }}</p>
-				<p class="inline-flex items-center gap-1.5">
-					<Icon name="heart" :size="12" class="text-terracotta40" />
+			<div class="flex flex-col items-start justify-between gap-3 border-t border-sand80/60 py-6 font-mono text-[10px] uppercase tracking-[0.18em] text-sand60 sm:flex-row sm:items-center">
+				<p>© {{ year }} EPC ROVINJ · {{ t('footer.rights') }}</p>
+				<p class="inline-flex items-center gap-2">
+					<Icon name="heart" :size="10" class="text-terracotta40" />
 					{{ t('footer.made_with') }}
 				</p>
 			</div>

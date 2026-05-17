@@ -9,11 +9,19 @@ const events = computed(() =>
 </script>
 
 <template>
-	<Section tone="sand" spacing="md">
-		<Container size="lg">
-			<SectionHeading :title="t('schedule.events_title')" :subtitle="t('schedule.events_subtitle')" />
+	<Section tone="sand" spacing="lg">
+		<Container size="xl">
+			<div class="flex items-center gap-4 section-no text-sand60">
+				<span>§ II</span>
+				<span class="block h-px w-16 bg-sand40" />
+				<span class="eyebrow">{{ t('schedule.events_subtitle') }}</span>
+			</div>
 
-			<div class="mt-10 grid gap-5 lg:grid-cols-2">
+			<h2 class="mt-6 font-display text-[clamp(2.5rem,5.5vw,4.5rem)] leading-[1.02] tracking-tight text-sand100">
+				{{ t('schedule.events_title') }}
+			</h2>
+
+			<div class="mt-12 border-b border-sand20">
 				<EventCard v-for="event in events" :key="event.id" :event="event" />
 			</div>
 		</Container>

@@ -4,15 +4,15 @@ import type { Palette } from '~~/app/stores/persisted';
 // Maps each palette to its terracotta-scale overrides (the scale used everywhere in templates).
 const paletteVars: Record<Palette, Record<string, string>> = {
 	terracotta: {
-		'--color-terracotta100': '#7c2d12',
-		'--color-terracotta80': '#9a3412',
-		'--color-terracotta60': '#b45309',
-		'--color-terracotta40': '#ea8a3e',
-		'--color-terracotta20': '#fbd9b8',
-		'--color-terracotta05': '#fdf2e6',
-		'--color-sand05': '#faf7f2',
-		'--color-sand10': '#f5f4f0',
-		'--color-bg': '#faf7f2',
+		'--color-terracotta100': '#4a1407',
+		'--color-terracotta80': '#7a2515',
+		'--color-terracotta60': '#a83520',
+		'--color-terracotta40': '#d97757',
+		'--color-terracotta20': '#f1c9b0',
+		'--color-terracotta05': '#f8ece0',
+		'--color-sand05': '#f5efe1',
+		'--color-sand10': '#ece4d3',
+		'--color-bg': '#f5efe1',
 	},
 	sky: {
 		'--color-terracotta100': '#0e1518',

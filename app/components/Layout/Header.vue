@@ -47,18 +47,24 @@ watch(isOpen, val => {
 	<header
 		:class="[
 			'sticky top-0 z-40 transition-all duration-200',
-			isScrolled || isOpen ? 'bg-sand00/95 backdrop-blur-md shadow-layer-1' : 'bg-sand05',
+			isScrolled || isOpen
+				? 'bg-sand00/95 border-b border-sand20 backdrop-blur-md'
+				: 'bg-sand05 border-b border-sand20/60',
 		]"
 	>
 		<Container size="xl">
 			<div class="flex h-16 items-center justify-between lg:h-20">
-				<TLink to="index" class="group" :aria-label="t('church.name')">
+				<TLink to="index" class="group flex items-center gap-3" :aria-label="t('church.name')">
 					<Image
 						src="/img/epc-rovinj-logo.jpeg"
 						:alt="t('church.name')"
-						class="h-10 w-auto mix-blend-multiply lg:h-12"
+						class="h-10 w-auto mix-blend-multiply lg:h-11"
 						priority
 					/>
+					<div class="hidden flex-col leading-tight lg:flex">
+						<span class="font-display text-lg text-sand100">{{ t('church.name') }}</span>
+						<span class="font-mono text-[10px] uppercase tracking-[0.18em] text-sand60">EST. MMIX · ROVINJ</span>
+					</div>
 				</TLink>
 
 				<nav class="hidden items-center gap-1 lg:flex" :aria-label="t('nav.home')">
@@ -67,12 +73,17 @@ watch(isOpen, val => {
 						:key="item.key"
 						:to="item.to"
 						:class="[
-							'rounded-md px-3 py-2 text-sm font-medium transition-colors',
+							'relative px-3 py-2 font-mono text-xs uppercase tracking-[0.16em] transition-colors',
 							isActive(item.to)
-								? 'text-terracotta60'
-								: 'text-sand80 hover:text-sand100 hover:bg-sand10',
+								? 'text-terracotta80'
+								: 'text-sand80 hover:text-sand100',
 						]"
 					>
+						<span
+							v-if="isActive(item.to)"
+							class="absolute inset-x-3 -bottom-px h-px bg-terracotta60"
+							aria-hidden="true"
+						/>
 						{{ item.label }}
 					</TLink>
 				</nav>
@@ -81,12 +92,12 @@ watch(isOpen, val => {
 					<LanguageSwitcher class="hidden sm:flex" />
 					<button
 						type="button"
-						class="inline-flex size-10 items-center justify-center rounded-md text-sand100 hover:bg-sand10 lg:hidden"
+						class="inline-flex size-10 items-center justify-center border border-sand20 text-sand100 transition-colors hover:bg-sand10 lg:hidden"
 						:aria-label="isOpen ? t('common.close_menu') : t('common.open_menu')"
 						:aria-expanded="isOpen"
 						@click="isOpen = !isOpen"
 					>
-						<Icon :name="isOpen ? 'close' : 'menu'" :size="22" />
+						<Icon :name="isOpen ? 'close' : 'menu'" :size="20" />
 					</button>
 				</div>
 			</div>
@@ -108,13 +119,13 @@ watch(isOpen, val => {
 							:key="item.key"
 							:to="item.to"
 							:class="[
-								'rounded-md px-3 py-3 text-base font-medium transition-colors',
-								isActive(item.to) ? 'text-terracotta60 bg-terracotta05' : 'text-sand100 hover:bg-sand10',
+								'border-b border-sand20 px-1 py-4 font-mono text-sm uppercase tracking-[0.16em] transition-colors',
+								isActive(item.to) ? 'text-terracotta80' : 'text-sand100 hover:text-terracotta60',
 							]"
 						>
 							{{ item.label }}
 						</TLink>
-						<div class="mt-3 flex items-center justify-between border-t border-sand20 pt-4">
+						<div class="mt-4 flex items-center justify-between">
 							<LanguageSwitcher />
 						</div>
 					</nav>

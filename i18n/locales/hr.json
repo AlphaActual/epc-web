@@ -38,7 +38,7 @@
 	},
 	"home": {
 		"hero": {
-			"eyebrow": "Evanđeoska pentekostna crkva u Rovinju",
+			"eyebrow": "Dobrodošli u EPC Rovinj",
 			"title_lead": "Crkva s ",
 			"title_accent": "pulsom.",
 			"subtitle": "Nedjeljno slavljenje, iskrena molitva, Božja riječ i zajednica koja najprije otvara ruke, a tek onda postavlja pitanja.",
@@ -46,20 +46,33 @@
 			"cta_secondary": "Poslušaj nedavnu propovijed",
 			"side_label": "Kako izgleda ovo okupljanje",
 			"side_title": "Bez predstave. Bez pritiska. Prostor da udahneš, pripadaš i tražiš Boga.",
-			"image_alt": "Pogled na staru jezgru Rovinja uz more"
+			"image_alt": "Pogled na staru jezgru Rovinja uz more",
+			"section_label": "Dobrodošli",
+			"live_label": "Uživo tjedno",
+			"meta_day": "Dan",
+			"meta_time": "Vrijeme",
+			"meta_place": "Mjesto"
 		},
 		"next_service": {
 			"label": "Sljedeće bogoslužje",
 			"every_sunday": "Svake nedjelje",
 			"time": "10:00",
 			"location": "Istarska ulica 12, Rovinj",
-			"directions": "Dobij upute"
+			"directions": "Dobij upute",
+			"venue": "Lokacija",
+			"timezone": "CET"
 		},
 		"beliefs_intro": {
 			"eyebrow": "Tko smo",
 			"title": "Vjera koja diše, zajednica koja živi",
+			"title_lead_1": "Vjera koja",
+			"title_accent_1": "diše,",
+			"title_lead_2": "zajednica",
+			"title_lead_3": "koja",
+			"title_accent_3": "živi.",
 			"body": "Vjerujemo da je Bog živ, da je Isus Krist Spasitelj, i da Duh Sveti i danas djeluje u nama. Mi smo pentekostna crkva — utemeljeni na Bibliji, otvoreni za Duha, predani jedni drugima i gradu Rovinju.",
-			"cta": "Pročitaj naša vjerovanja"
+			"cta": "Pročitaj naša vjerovanja",
+			"foundations_label": "Temelji"
 		},
 		"latest_sermons": {
 			"eyebrow": "Iz medijateke",
@@ -239,6 +252,7 @@
 			"all_series": "Sve serije",
 			"all_topics": "Sve teme",
 			"clear": "Očisti filtere",
+			"topics_label": "Teme",
 			"results": "{count} propovijedi",
 			"results_one": "{count} propovijed",
 			"results_few": "{count} propovijedi",

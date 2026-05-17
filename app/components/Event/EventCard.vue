@@ -14,13 +14,14 @@ const day = computed(() => date.value.getDate().toString().padStart(2, '0'));
 const month = computed(() =>
 	date.value.toLocaleDateString(locale.value === 'hr' ? 'hr-HR' : 'en-US', { month: 'short' }).replace('.', '').toUpperCase(),
 );
+const year = computed(() => date.value.getFullYear());
 
 const rangeLabel = computed(() => {
-	const opts: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric' };
-	const start = date.value.toLocaleDateString(locale.value === 'hr' ? 'hr-HR' : 'en-US', opts);
-	if (!endDate.value) return start;
+	if (!endDate.value) return null;
 	const sameDay = date.value.toDateString() === endDate.value.toDateString();
-	if (sameDay) return start;
+	if (sameDay) return null;
+	const opts: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long' };
+	const start = date.value.toLocaleDateString(locale.value === 'hr' ? 'hr-HR' : 'en-US', opts);
 	const end = endDate.value.toLocaleDateString(locale.value === 'hr' ? 'hr-HR' : 'en-US', opts);
 	return `${start} – ${end}`;
 });
@@ -31,31 +32,48 @@ const timeLabel = computed(() =>
 </script>
 
 <template>
-	<article class="flex gap-5 rounded-2xl bg-sand00 p-5 shadow-layer-1 transition-shadow hover:shadow-layer-2">
-		<div class="flex size-20 shrink-0 flex-col items-center justify-center rounded-xl bg-terracotta60 text-white">
-			<span class="font-serif text-2xl font-bold leading-none">{{ day }}</span>
-			<span class="mt-1 text-xs font-semibold uppercase tracking-wider">{{ month }}</span>
+	<article class="group relative grid grid-cols-[auto_1fr] gap-6 border-t border-sand20 py-8 transition-colors hover:border-terracotta60 sm:grid-cols-[140px_1fr_auto] sm:gap-10 sm:py-10">
+		<!-- Date column -->
+		<div class="flex flex-col">
+			<span class="font-display text-5xl leading-none text-sand100 tabular sm:text-6xl">{{ day }}</span>
+			<div class="mt-2 flex items-baseline gap-2">
+				<span class="font-mono text-xs font-medium text-terracotta80 tracking-wider">{{ month }}</span>
+				<span class="font-mono text-xs text-sand40 tabular">{{ year }}</span>
+			</div>
 		</div>
 
-		<div class="flex min-w-0 flex-1 flex-col gap-1.5">
-			<h3 class="font-serif text-xl font-semibold leading-snug text-sand100">
+		<!-- Body -->
+		<div class="flex min-w-0 flex-col gap-3">
+			<h3 class="font-display text-2xl leading-snug text-sand100 sm:text-3xl">
 				{{ t(event.title_key) }}
 			</h3>
 
-			<div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-sand60">
+			<div class="flex flex-wrap items-center gap-x-4 gap-y-1 font-mono text-xs uppercase tracking-wider text-sand60">
 				<span class="inline-flex items-center gap-1.5">
-					<Icon name="clock" :size="14" />
-					{{ rangeLabel }} · {{ timeLabel }}
+					<Icon name="clock" :size="12" aria-hidden="true" />
+					{{ timeLabel }}<span v-if="rangeLabel">  /  {{ rangeLabel }}</span>
 				</span>
+				<span class="hidden h-px w-3 bg-sand40 sm:block" aria-hidden="true" />
 				<span class="inline-flex items-center gap-1.5">
-					<Icon name="map_pin" :size="14" />
+					<Icon name="map_pin" :size="12" aria-hidden="true" />
 					{{ t(event.location_key) }}
 				</span>
 			</div>
 
-			<p v-if="event.description_key" class="mt-1 text-sm leading-relaxed text-sand80">
+			<p v-if="event.description_key" class="max-w-prose text-sm leading-relaxed text-sand80">
 				{{ t(event.description_key) }}
 			</p>
+		</div>
+
+		<!-- CTA -->
+		<div v-if="event.cta_key" class="col-span-2 flex items-end sm:col-span-1">
+			<TLink
+				:to="'services'"
+				class="group/cta inline-flex items-center gap-3 border-b border-sand40 pb-1 font-mono text-xs uppercase tracking-[0.18em] text-sand100 transition-colors hover:border-terracotta60 hover:text-terracotta60"
+			>
+				{{ t(event.cta_key) }}
+				<Icon name="arrow_right" :size="12" class="transition-transform group-hover/cta:translate-x-1" aria-hidden="true" />
+			</TLink>
 		</div>
 	</article>
 </template>

@@ -94,8 +94,9 @@ export default defineNuxtConfig({
 			subsets: ['latin-ext'],
 		},
 		families: [
-			{ name: 'Inter', provider: 'google', weights: [300, 400, 500, 600, 700] },
-			{ name: 'Newsreader', provider: 'google', weights: [400, 500, 600, 700], styles: ['normal', 'italic'] },
+			{ name: 'Geist', provider: 'google', weights: [300, 400, 500, 600, 700] },
+			{ name: 'Fraunces', provider: 'google', weights: [300, 400, 500, 600, 700, 800], styles: ['normal', 'italic'] },
+			{ name: 'JetBrains Mono', provider: 'google', weights: [400, 500, 600] },
 		],
 	},
 

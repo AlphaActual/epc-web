@@ -46,20 +46,33 @@
 			"cta_secondary": "Hear a recent sermon",
 			"side_label": "What this gathering feels like",
 			"side_title": "No performance. No pressure. Space to breathe, belong, and seek God.",
-			"image_alt": "View of Rovinj old town by the sea"
+			"image_alt": "View of Rovinj old town by the sea",
+			"section_label": "Welcome",
+			"live_label": "Live weekly",
+			"meta_day": "Day",
+			"meta_time": "Time",
+			"meta_place": "Place"
 		},
 		"next_service": {
 			"label": "Next service",
 			"every_sunday": "Every Sunday",
 			"time": "10:00",
 			"location": "Istarska ulica 12, Rovinj",
-			"directions": "Get directions"
+			"directions": "Get directions",
+			"venue": "Venue",
+			"timezone": "CET"
 		},
 		"beliefs_intro": {
 			"eyebrow": "Who we are",
 			"title": "A faith that breathes, a community that lives",
+			"title_lead_1": "A faith that",
+			"title_accent_1": "breathes,",
+			"title_lead_2": "a community",
+			"title_lead_3": "that",
+			"title_accent_3": "lives.",
 			"body": "We believe God is alive, Jesus Christ is Saviour, and the Holy Spirit still moves in our lives today. We are a Pentecostal church — rooted in the Bible, open to the Spirit, devoted to one another and to the city of Rovinj.",
-			"cta": "Read our beliefs"
+			"cta": "Read our beliefs",
+			"foundations_label": "Foundations"
 		},
 		"latest_sermons": {
 			"eyebrow": "From the archive",
@@ -239,6 +252,7 @@
 			"all_series": "All series",
 			"all_topics": "All topics",
 			"clear": "Clear filters",
+			"topics_label": "Topics",
 			"results": "{count} sermons",
 			"results_one": "{count} sermon",
 			"results_few": "{count} sermons",
