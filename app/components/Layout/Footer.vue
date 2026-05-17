@@ -18,7 +18,7 @@ const year = new Date().getFullYear();
 </script>
 
 <template>
-	<footer class="relative isolate overflow-hidden bg-sand100 text-sand20">
+	<footer class="relative isolate overflow-hidden bg-terracotta100 text-sand20">
 		<div class="grain absolute inset-0 opacity-40" aria-hidden="true" />
 
 		<Container size="xl" class="relative">

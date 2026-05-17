@@ -4,13 +4,13 @@
 @import './scrollbar.css';
 
 @theme {
-	/* brand colors — terracotta scale, refined toward deeper, more confident reds */
-	--color-terracotta100: #4a1407;
-	--color-terracotta80: #7a2515;
-	--color-terracotta60: #a83520;
-	--color-terracotta40: #d97757;
-	--color-terracotta20: #f1c9b0;
-	--color-terracotta05: #f8ece0;
+	/* brand colors — Adriatic marine blue scale (token name kept as 'terracotta' for codebase consistency; semantically this is the primary brand scale) */
+	--color-terracotta100: #081a30;
+	--color-terracotta80: #112c4f;
+	--color-terracotta60: #1d4b82;
+	--color-terracotta40: #6491c4;
+	--color-terracotta20: #c0d6ec;
+	--color-terracotta05: #e6eef7;
 
 	--color-olive100: #1a2e05;
 	--color-olive80: #365314;
@@ -19,16 +19,16 @@
 	--color-olive20: #d9f99d;
 	--color-olive05: #f7fee7;
 
-	/* sand scale — warmer limestone with deeper, more architectural contrast */
+	/* sand scale — cool ivory limestone (yellow cast lifted to pair with Adriatic navy) */
 	--color-sand100: #1a1714;
 	--color-sand90: #2a2622;
 	--color-sand80: #3d3631;
 	--color-sand60: #6b5f55;
 	--color-sand40: #a89a8c;
-	--color-sand20: #d9d1c4;
-	--color-sand10: #ece4d3;
-	--color-sand05: #f5efe1;
-	--color-sand00: #fbf7ec;
+	--color-sand20: #d8d3c1;
+	--color-sand10: #eae6d8;
+	--color-sand05: #f3f0e6;
+	--color-sand00: #f9f7ee;
 
 	/* semantic aliases */
 	--color-primary: var(--color-terracotta60);

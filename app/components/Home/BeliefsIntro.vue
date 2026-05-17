@@ -23,10 +23,8 @@ const tenets = [
 				<!-- Big editorial statement -->
 				<div class="lg:col-span-8">
 					<h2 class="font-display text-[clamp(2.5rem,6vw,5.5rem)] leading-[0.98] tracking-tight text-sand100">
-						<span class="block">{{ t('home.beliefs_intro.title_lead_1') }}</span>
-						<span class="font-display-italic block text-terracotta60">{{ t('home.beliefs_intro.title_accent_1') }}</span>
-						<span class="block">{{ t('home.beliefs_intro.title_lead_2') }}</span>
-						<span class="block">{{ t('home.beliefs_intro.title_lead_3') }} <span class="font-display-italic text-terracotta60">{{ t('home.beliefs_intro.title_accent_3') }}</span></span>
+						<span>{{ t('home.beliefs_intro.title_lead_1') }}</span><span class="font-display-italic text-terracotta60">{{ t('home.beliefs_intro.title_accent_1') }}</span><br>
+						<span>{{ t('home.beliefs_intro.title_lead_2') }}</span> <span>{{ t('home.beliefs_intro.title_lead_3') }} <span class="font-display-italic text-terracotta60">{{ t('home.beliefs_intro.title_accent_3') }}</span></span>
 					</h2>
 
 					<div class="mt-12 grid max-w-2xl gap-8 sm:grid-cols-[120px_1fr] sm:gap-12">

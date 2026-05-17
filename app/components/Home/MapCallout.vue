@@ -59,7 +59,7 @@ const { t } = useI18n();
 				<div class="relative lg:col-span-6">
 					<div class="absolute -inset-3 border border-sand20/30 lg:-inset-4" aria-hidden="true" />
 					<div class="absolute -top-3 left-0 right-0 h-px bg-sand20/40 lg:-top-4" aria-hidden="true" />
-					<div class="relative overflow-hidden bg-sand100">
+					<div class="relative overflow-hidden bg-terracotta100">
 						<iframe
 							:src="contactInfo.map_embed_url"
 							class="aspect-[4/3] w-full grayscale"

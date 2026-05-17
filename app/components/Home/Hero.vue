@@ -72,7 +72,7 @@ const serviceMeta = computed<HeroPoint[]>(() => [
 							to="sermons"
 							class="group inline-flex items-center gap-3 border-b border-sand40 pb-1 text-sm font-medium text-sand100 transition-colors hover:border-terracotta60 hover:text-terracotta60"
 						>
-							<span class="flex size-7 items-center justify-center rounded-full bg-sand100 text-sand00 transition-colors group-hover:bg-terracotta60">
+							<span class="flex size-7 items-center justify-center rounded-full bg-terracotta100 text-sand00 transition-colors group-hover:bg-terracotta60">
 								<Icon name="play" :size="11" aria-hidden="true" />
 							</span>
 							{{ t('home.hero.cta_secondary') }}
@@ -95,7 +95,7 @@ const serviceMeta = computed<HeroPoint[]>(() => [
 						<div class="absolute -inset-3 border border-sand20 lg:-inset-4" aria-hidden="true" />
 						<div class="absolute -top-3 left-0 right-0 h-px bg-sand40/40 lg:-top-4" aria-hidden="true" />
 
-						<figure class="relative overflow-hidden bg-sand100">
+						<figure class="relative overflow-hidden bg-terracotta100">
 							<div class="aspect-[4/5] sm:aspect-[16/12] lg:aspect-[4/5]">
 								<Image
 									src="/img/rovinj.jpg"

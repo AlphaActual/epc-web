@@ -39,7 +39,7 @@ function initials(name: string) {
 					:key="member.id"
 					class="group relative flex flex-col bg-sand00 transition-colors hover:bg-sand10"
 				>
-					<div class="relative flex aspect-[3/4] items-center justify-center overflow-hidden bg-sand100 text-terracotta40">
+					<div class="relative flex aspect-[3/4] items-center justify-center overflow-hidden bg-terracotta100 text-terracotta40">
 						<div class="grain absolute inset-0 opacity-60" aria-hidden="true" />
 						<span class="font-display text-7xl tracking-tight">{{ initials(member.name) }}</span>
 						<div class="absolute left-4 top-4 inline-flex items-center gap-2 bg-sand00/95 px-2.5 py-1 backdrop-blur-sm">

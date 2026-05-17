@@ -7,12 +7,12 @@ const { t } = useI18n();
 <template>
 	<section class="relative">
 		<Container size="xl">
-			<div class="relative -mt-px overflow-hidden border-y border-sand20 bg-sand100 text-sand20">
+			<div class="relative -mt-px overflow-hidden border-y border-sand20 bg-terracotta100 text-sand20">
 				<div class="grain absolute inset-0 opacity-60" aria-hidden="true" />
 
 				<div class="relative grid items-stretch gap-px bg-sand80/30 sm:grid-cols-[auto_1fr_auto]">
 					<!-- Day column -->
-					<div class="flex items-center gap-4 bg-sand100 px-6 py-6 sm:px-8 sm:py-7">
+					<div class="flex items-center gap-4 bg-terracotta100 px-6 py-6 sm:px-8 sm:py-7">
 						<div class="font-display text-5xl leading-none text-terracotta40 sm:text-6xl">10</div>
 						<div class="flex flex-col">
 							<span class="eyebrow text-terracotta40">{{ t('home.next_service.label') }}</span>
@@ -22,7 +22,7 @@ const { t } = useI18n();
 					</div>
 
 					<!-- Location -->
-					<div class="flex items-center gap-3 bg-sand100 px-6 py-6 sm:px-8 sm:py-7">
+					<div class="flex items-center gap-3 bg-terracotta100 px-6 py-6 sm:px-8 sm:py-7">
 						<Icon name="map_pin" :size="18" class="shrink-0 text-terracotta40" aria-hidden="true" />
 						<div class="min-w-0">
 							<span class="eyebrow text-sand40">{{ t('home.next_service.venue') }}</span>
